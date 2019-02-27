@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name video)(type Legacy)(uri ${KIPRJMOD}/video.lib)(options "")(descr ""))
+)
