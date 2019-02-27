@@ -1,3 +1,9 @@
+SPACING IS WRONG - DONT USE
+===========================
+
+This is just here for posterity. I may remove it later
+
+
 Idea: Design a PCB that can mount directly to an extron 4x BNC input, on the cheap, and without cables (mostly).
 
 To make this possible, use the following:
