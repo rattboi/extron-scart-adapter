@@ -117,7 +117,7 @@ U 1 1 5C652866
 P 4650 4550
 F 0 "J6" H 4756 4828 50  0000 C CNN
 F 1 "Conn_01x03_Male" H 4756 4737 50  0000 C CNN
-F 2 "Connector_JST:JST_EH_B03B-EH-A_1x03_P2.50mm_Vertical" H 4650 4550 50  0001 C CNN
+F 2 "Connector_JST:JST_EH_S03B-EH_1x03_P2.50mm_Horizontal" H 4650 4550 50  0001 C CNN
 F 3 "~" H 4650 4550 50  0001 C CNN
 	1    4650 4550
 	1    0    0    -1  
@@ -128,7 +128,7 @@ U 1 1 5C74DAFA
 P 5200 2950
 F 0 "J7" H 5350 2750 50  0000 R CNN
 F 1 "Conn_01x02_Male" H 5600 3000 50  0000 R CNN
-F 2 "Connector_JST:JST_EH_B02B-EH-A_1x02_P2.50mm_Vertical" H 5200 2950 50  0001 C CNN
+F 2 "Connector_JST:JST_EH_S02B-EH_1x02_P2.50mm_Horizontal" H 5200 2950 50  0001 C CNN
 F 3 "~" H 5200 2950 50  0001 C CNN
 	1    5200 2950
 	-1   0    0    1   
@@ -149,7 +149,7 @@ L Device:R_US R1
 U 1 1 5C74E55F
 P 5800 2850
 F 0 "R1" V 5700 2850 50  0000 C CNN
-F 1 "680" V 5600 2850 50  0000 C CNN
+F 1 "680k" V 5600 2850 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical" V 5840 2840 50  0001 C CNN
 F 3 "~" H 5800 2850 50  0001 C CNN
 	1    5800 2850
@@ -299,4 +299,52 @@ Text GLabel 5450 2500 0    50   Input ~ 0
 GND
 Text GLabel 5250 3800 2    50   Input ~ 0
 GND
+NoConn ~ 2400 5600
+NoConn ~ 2400 5800
+NoConn ~ 2400 6000
+NoConn ~ 2400 6200
+$Comp
+L Connector_Generic:Conn_01x01 J8
+U 1 1 5C7605B3
+P 2600 5600
+F 0 "J8" H 2680 5642 50  0000 L CNN
+F 1 "Conn_01x01" H 2680 5551 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 2600 5600 50  0001 C CNN
+F 3 "~" H 2600 5600 50  0001 C CNN
+	1    2600 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J9
+U 1 1 5C76074F
+P 2600 5800
+F 0 "J9" H 2680 5842 50  0000 L CNN
+F 1 "Conn_01x01" H 2680 5751 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 2600 5800 50  0001 C CNN
+F 3 "~" H 2600 5800 50  0001 C CNN
+	1    2600 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J10
+U 1 1 5C760785
+P 2600 6000
+F 0 "J10" H 2680 6042 50  0000 L CNN
+F 1 "Conn_01x01" H 2680 5951 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 2600 6000 50  0001 C CNN
+F 3 "~" H 2600 6000 50  0001 C CNN
+	1    2600 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J11
+U 1 1 5C7607B9
+P 2600 6200
+F 0 "J11" H 2680 6242 50  0000 L CNN
+F 1 "Conn_01x01" H 2680 6151 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 2600 6200 50  0001 C CNN
+F 3 "~" H 2600 6200 50  0001 C CNN
+	1    2600 6200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
