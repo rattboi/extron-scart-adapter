@@ -1,7 +1,7 @@
 EESchema Schematic File Version 4
 LIBS:power
 LIBS:74xx
-LIBS:scart-input-cache
+LIBS:extron-input-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -56,7 +56,7 @@ U 1 1 5C651C5B
 P 8250 2050
 F 0 "J2" H 8200 1550 50  0000 L CNN
 F 1 "Conn_Coaxial" H 7850 2200 50  0000 L CNN
-F 2 "scart-input:BNC_90" H 8250 2050 50  0001 C CNN
+F 2 "extron-input:BNC_90" H 8250 2050 50  0001 C CNN
 F 3 " ~" H 8250 2050 50  0001 C CNN
 	1    8250 2050
 	1    0    0    -1  
@@ -67,7 +67,7 @@ U 1 1 5C651D00
 P 8250 2900
 F 0 "J3" H 8200 2400 50  0000 L CNN
 F 1 "Conn_Coaxial" H 7850 3050 50  0000 L CNN
-F 2 "scart-input:BNC_90" H 8250 2900 50  0001 C CNN
+F 2 "extron-input:BNC_90" H 8250 2900 50  0001 C CNN
 F 3 " ~" H 8250 2900 50  0001 C CNN
 	1    8250 2900
 	1    0    0    -1  
@@ -78,7 +78,7 @@ U 1 1 5C651DB2
 P 8250 3750
 F 0 "J4" H 8200 3250 50  0000 L CNN
 F 1 "Conn_Coaxial" H 7850 3900 50  0000 L CNN
-F 2 "scart-input:BNC_90" H 8250 3750 50  0001 C CNN
+F 2 "extron-input:BNC_90" H 8250 3750 50  0001 C CNN
 F 3 " ~" H 8250 3750 50  0001 C CNN
 	1    8250 3750
 	1    0    0    -1  
@@ -89,7 +89,7 @@ U 1 1 5C651E83
 P 8250 4550
 F 0 "J5" H 8200 4050 50  0000 L CNN
 F 1 "Conn_Coaxial" H 7850 4700 50  0000 L CNN
-F 2 "scart-input:BNC_90" H 8250 4550 50  0001 C CNN
+F 2 "extron-input:BNC_90" H 8250 4550 50  0001 C CNN
 F 3 " ~" H 8250 4550 50  0001 C CNN
 	1    8250 4550
 	1    0    0    -1  
@@ -106,7 +106,7 @@ U 1 1 5C652397
 P 3850 3100
 F 0 "J1" H 3850 4520 50  0000 C CNN
 F 1 "SCART-F" H 3850 4429 50  0000 C CNN
-F 2 "scart-input:SCART_F_RA" H 3850 3150 50  0001 C CNN
+F 2 "extron-input:SCART_F_RA" H 3850 3150 50  0001 C CNN
 F 3 " ~" H 3850 3150 50  0001 C CNN
 	1    3850 3100
 	1    0    0    -1  

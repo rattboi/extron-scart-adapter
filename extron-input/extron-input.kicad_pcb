@@ -601,7 +601,7 @@
     )
   )
 
-  (module scart-input:BNC_90 (layer F.Cu) (tedit 5C762019) (tstamp 5C7C0951)
+  (module extron-input:BNC_90 (layer F.Cu) (tedit 5C762019) (tstamp 5C7C0951)
     (at 152.4 76.2 180)
     (descr "BNC connector, Tyco 1-1337543-0")
     (path /5C651E83)
@@ -643,7 +643,7 @@
     )
   )
 
-  (module scart-input:BNC_90 (layer F.Cu) (tedit 5C762033) (tstamp 5C7C0936)
+  (module extron-input:BNC_90 (layer F.Cu) (tedit 5C762033) (tstamp 5C7C0936)
     (at 132.08 76.2 180)
     (descr "BNC connector, Tyco 1-1337543-0")
     (path /5C651DB2)
@@ -685,7 +685,7 @@
     )
   )
 
-  (module scart-input:BNC_90 (layer F.Cu) (tedit 5C762057) (tstamp 5C7C0D87)
+  (module extron-input:BNC_90 (layer F.Cu) (tedit 5C762057) (tstamp 5C7C0D87)
     (at 111.76 76.2 180)
     (descr "BNC connector, Tyco 1-1337543-0")
     (path /5C651D00)
@@ -727,7 +727,7 @@
     )
   )
 
-  (module scart-input:BNC_90 (layer F.Cu) (tedit 5C762068) (tstamp 5C7C0900)
+  (module extron-input:BNC_90 (layer F.Cu) (tedit 5C762068) (tstamp 5C7C0900)
     (at 91.44 76.2 180)
     (descr "BNC connector, Tyco 1-1337543-0")
     (path /5C651C5B)
@@ -769,7 +769,7 @@
     )
   )
 
-  (module scart-input:SCART_F_RA (layer F.Cu) (tedit 5C76257C) (tstamp 5C76683E)
+  (module extron-input:SCART_F_RA (layer F.Cu) (tedit 5C76257C) (tstamp 5C76683E)
     (at 129.921 104.9655 180)
     (path /5C652397)
     (fp_text reference J1 (at 0.1778 -4.4577 180) (layer F.SilkS)
