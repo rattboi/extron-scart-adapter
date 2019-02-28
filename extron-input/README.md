@@ -24,7 +24,7 @@ BOM (kinda)
 |3              | J7            |JST_EH_B02B-EH-A_1x02 P2.50mm_Vertical           |1     |Conn_01x02_Male | Arrow: https://www.arrow.com/en/products/b3b-eh-a-lf-sn/jst-manufacturing                                       | $0.17      |       |
 |4              | J6            |JST_EH_B03B-EH-A_1x03 P2.50mm_Vertical           |1     |Conn_01x03_Male | Arrow: https://www.arrow.com/en/products/b2b-xh-a-lf-sn/jst-manufacturing                                       | $0.14      |       |
 |5              | U1            |DIP-8_W7.62mm                                    |1     |LM1881          | Arrow: https://www.arrow.com/en/products/lm1881nnopb/texas-instruments                                          | $3.34      |       |
-|6              | R1            |R_Axial_DIN0204_L3.6mm D1.6mm_P1.90mm_Vertical   |1     |680             | Arrow                                                                                                           | cheap      |       |
+|6              | R1            |R_Axial_DIN0204_L3.6mm D1.6mm_P1.90mm_Vertical   |1     |680k            | Arrow                                                                                                           | cheap      |       |
 |7              | J5,J4,J3,J2   |BNC_90                                           |4     |Conn_Coaxial    | Arrow: https://www.arrow.com/en/products/415218-1/te-connectivity                                               | $1.79      | $7.20 |
 |8              | J1            |SCART_F_RA                                       |1     |SCART-F         | Console5: https://console5.com/store/female-scart-jp21-through-hole-pcb-mount-21-pin-connector-right-angle.html | $1.79      |       |
 
