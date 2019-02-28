@@ -1,3 +1,3 @@
 (fp_lib_table
-  (lib (name "extron-scart")(type KiCad)(uri "${KIPRJMOD}/extron-scart.pretty")(options "")(descr ""))
+  (lib (name "scart-input")(type KiCad)(uri "${KIPRJMOD}/scart-input.pretty")(options "")(descr ""))
 )
