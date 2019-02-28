@@ -7,6 +7,13 @@ PCB Renders
 ![Front Render](renders/front.png)
 ![Back Render](renders/back.png)
 
+3D Renders
+==========
+![Top Render](renders/3d-top.png)
+![Front Render](renders/3d-front.png)
+![Side Render](renders/3d-side.png)
+
+
 BOM (kinda)
 ===========
 
