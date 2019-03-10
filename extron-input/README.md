@@ -1,8 +1,6 @@
 Extron SCART Input adapter
 ==========================
 
-Note: This is out-of-date currently. It will be revised shortly.
-
 PCB Renders
 ===========
 
@@ -15,8 +13,7 @@ PCB Renders
 ![Front Render](renders/3d-front.png)
 ![Side Render](renders/3d-side.png)
 
-
-BOM (kinda)
+BOM
 ===========
 | Item | Qty | Reference(s)     | Value      | Footprint                                                   | Datasheet                                                                                                            |
 |------|-----|------------------|------------|-------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
@@ -42,33 +39,60 @@ BOM (kinda)
 | 20   | 1   | U1               | LM1881     | Package_DIP:DIP-8_W7.62mm,                                  | https://www.ti.com/store/ti/en/p/product/?p=LM1881N/NOPB&HQS=corp-tistore-null-storeinv-invf-store-octopart-wwe      |
 
 
-Totals:
-BOM: 13.04
-PCB: $5 for 10, plus $6 for slower shipping
+LCSC     Sub-total: $14.94 for everything for 10x boards (plus lots of spare parts)
+Console5 Sub-total: $14.90 for RA Female SCART connectors
+TI       Sub-total: $28.40 for LM1881n 
 
-Cost for 1: 13.50+5+6+5 = $29.50 (not that much of a savings)
-Cost for 10: $135+5+6+5 = $151 = $15.10 each (pretty good)
+BOM Total for 10x boards: $58.40 plus Console5/TI shipping
+BOM Total with shipping: ~$70
+
+PCBs: $5 for 10, plus $6 for slower shipping
+
+Cost for 10 boards, all parts: $70+16 = $86 = $8.60 each
 
 Other parts 
 ===========
 
 Phoenix adapter
 ---------------
-estimate is $8 for 10, + 0.14x10, so $9.40 for 10. $0.94 each
+$2 for 10x more boards on JLCPCB order, and $0.89 for JST headers
 
-JST cables 
+$2.89 for 10x populated boards = $0.29 each
+
+JST cables (connect input audio to phoenix board)
 ----------
-https://www.amazon.com/HKBAYI-50Pair-50sets-Connector-WS2812B/dp/B00NBSH4CA/ 
-$11 for 50
+https://www.amazon.com/gp/product/B07HRMWVK9/
+$8 for 10 (need to find a better source)
 
-BNC M-M adapters
+BNC M to RCA M Plug Adapters
 ---------------
-https://www.amazon.com/BeElion-15-Pack-Coaxial-Straight-Connector/dp/B01HMNJARQ/ 
-$7.59 for 15
-$22.50 for 45 (need 40 for 10x boards)
+https://www.amazon.com/gp/product/B005C2KA88/
+$5.39 for 10
+$21.56 for 40 (4x per board, 10 boards)
 
-Totals for 10x boards
-=====================
-10x board + phoenix + cables + adapters: $151 + $10 + $11 + 22.50 = ~$195
+https://www.amazon.com/gp/product/B01H1A4QAQ/
+$6.42 for 10
+$25.68 for 40
 
-$19.50 each, all parts, shipped
+10x board Total
+===============
+10x board + phoenix + cables + adapters: $86 + $3 + $8 + $23 = ~$120
+
+$12.00 each, all parts, shipped
+
+10x boards Stripped-down 
+------------------------
+
+If you were to remove the optional components (no sync stripper, no sense circuit), you could get the price down further
+
+Removing switch + lm1881 and passives for lm1881 + passives for sense circuit + sense connector: 
+
+LCSC     Sub-total: $7.06
+Console5 Sub-total: $14.90 for SCART connectors
+
+BOM Total with shipping: $7.06 + $14.90 + $5 = $27
+PCBS are the same, so $11 for 10x boards shipped
+The rest is the same
+
+10x board + phoenix + cables + adapters: $38 + $3 + $8 + $23 = ~$72
+$7.20 each, shipped
