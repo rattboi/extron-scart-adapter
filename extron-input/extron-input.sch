@@ -50,50 +50,6 @@ Text GLabel 8050 3750 0    60   Input ~ 0
 BLUE
 Text GLabel 8050 2050 0    60   Input ~ 0
 RED
-$Comp
-L Connector:Conn_Coaxial J2
-U 1 1 5C651C5B
-P 8250 2050
-F 0 "J2" H 8200 1550 50  0000 L CNN
-F 1 "RED" H 7850 2200 50  0000 L CNN
-F 2 "extron-input:BNC_90" H 8250 2050 50  0001 C CNN
-F 3 " ~" H 8250 2050 50  0001 C CNN
-	1    8250 2050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_Coaxial J3
-U 1 1 5C651D00
-P 8250 2900
-F 0 "J3" H 8200 2400 50  0000 L CNN
-F 1 "GREEN" H 7850 3050 50  0000 L CNN
-F 2 "extron-input:BNC_90" H 8250 2900 50  0001 C CNN
-F 3 " ~" H 8250 2900 50  0001 C CNN
-	1    8250 2900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_Coaxial J4
-U 1 1 5C651DB2
-P 8250 3750
-F 0 "J4" H 8200 3250 50  0000 L CNN
-F 1 "BLUE" H 7850 3900 50  0000 L CNN
-F 2 "extron-input:BNC_90" H 8250 3750 50  0001 C CNN
-F 3 " ~" H 8250 3750 50  0001 C CNN
-	1    8250 3750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_Coaxial J5
-U 1 1 5C651E83
-P 8250 4550
-F 0 "J5" H 8200 4050 50  0000 L CNN
-F 1 "SYNC" H 7850 4700 50  0000 L CNN
-F 2 "extron-input:BNC_90" H 8250 4550 50  0001 C CNN
-F 3 " ~" H 8250 4550 50  0001 C CNN
-	1    8250 4550
-	1    0    0    -1  
-$EndComp
 Text GLabel 8250 3100 3    60   Input ~ 0
 GND
 Text GLabel 8250 3950 3    60   Input ~ 0
@@ -125,12 +81,12 @@ $EndComp
 $Comp
 L Connector:Conn_01x02_Male J7
 U 1 1 5C74DAFA
-P 5200 2950
-F 0 "J7" H 5350 2750 50  0000 R CNN
-F 1 "SENSE" H 5600 3000 50  0000 R CNN
-F 2 "Connector_JST:JST_XH_S02B-XH-A_1x02_P2.50mm_Horizontal" H 5200 2950 50  0001 C CNN
-F 3 "~" H 5200 2950 50  0001 C CNN
-	1    5200 2950
+P 5750 5800
+F 0 "J7" H 5900 5600 50  0000 R CNN
+F 1 "SENSE" H 5700 5800 50  0000 R CNN
+F 2 "Connector_JST:JST_XH_S02B-XH-A_1x02_P2.50mm_Horizontal" H 5750 5800 50  0001 C CNN
+F 3 "~" H 5750 5800 50  0001 C CNN
+	1    5750 5800
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -271,7 +227,7 @@ GND
 Connection ~ 4700 3400
 Wire Wire Line
 	4700 3400 4900 3400
-Text GLabel 5000 2950 0    50   Input ~ 0
+Text GLabel 5050 6000 0    50   Input ~ 0
 GND
 Wire Wire Line
 	7550 1900 6750 1900
@@ -344,7 +300,204 @@ Wire Wire Line
 Wire Wire Line
 	4850 4650 5450 4650
 Wire Wire Line
-	4700 2850 5000 2850
+	4700 2900 4900 2900
 Wire Wire Line
-	4700 2850 4700 3400
+	4700 2900 4700 3400
+Text GLabel 4900 2900 2    50   Input ~ 0
+SENSE
+Wire Wire Line
+	5550 5700 5500 5700
+$Comp
+L Device:D_ALT D1
+U 1 1 5C84733C
+P 4350 5700
+F 0 "D1" H 4350 5484 50  0000 C CNN
+F 1 "1N4148" H 4350 5575 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp" H 4350 5700 50  0001 C CNN
+F 3 "~" H 4350 5700 50  0001 C CNN
+	1    4350 5700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_US R2
+U 1 1 5C847B71
+P 4800 5700
+F 0 "R2" V 4595 5700 50  0000 C CNN
+F 1 "100KΩ" V 4686 5700 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical" V 4840 5690 50  0001 C CNN
+F 3 "~" H 4800 5700 50  0001 C CNN
+	1    4800 5700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Zener D2
+U 1 1 5C847C9D
+P 5050 5850
+F 0 "D2" V 5004 5929 50  0000 L CNN
+F 1 "1N4728A" V 5095 5929 50  0000 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp" H 5050 5850 50  0001 C CNN
+F 3 "~" H 5050 5850 50  0001 C CNN
+	1    5050 5850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4950 5700 5050 5700
+Connection ~ 5050 5700
+Text GLabel 4150 5700 0    50   Input ~ 0
+SENSE
+$Comp
+L power:GND #PWR0103
+U 1 1 5C849937
+P 5050 6050
+F 0 "#PWR0103" H 5050 5800 50  0001 C CNN
+F 1 "GND" H 5055 5877 50  0000 C CNN
+F 2 "" H 5050 6050 50  0001 C CNN
+F 3 "" H 5050 6050 50  0001 C CNN
+	1    5050 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 5800 5550 6000
+Wire Wire Line
+	5550 6000 5050 6000
+Connection ~ 5050 6000
+Wire Wire Line
+	5050 6000 5050 6050
+$Comp
+L Device:R_US R3
+U 1 1 5C84AF3E
+P 5350 5700
+F 0 "R3" V 5145 5700 50  0000 C CNN
+F 1 "1KΩ" V 5236 5700 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical" V 5390 5690 50  0001 C CNN
+F 3 "~" H 5350 5700 50  0001 C CNN
+	1    5350 5700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5200 5700 5050 5700
+Wire Wire Line
+	4150 5700 4200 5700
+Wire Wire Line
+	4500 5700 4650 5700
+$Comp
+L Connector:Conn_Coaxial J12
+U 1 1 5C84CB4A
+P 8650 2050
+F 0 "J12" H 8750 2026 50  0000 L CNN
+F 1 "RED" H 8750 1935 50  0000 L CNN
+F 2 "extron-input:rca_black" H 8650 2050 50  0001 C CNN
+F 3 " ~" H 8650 2050 50  0001 C CNN
+	1    8650 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8050 1850 8050 2050
+Wire Wire Line
+	8250 2250 8650 2250
+Wire Wire Line
+	8050 1850 8450 1850
+Wire Wire Line
+	8450 1850 8450 2050
+$Comp
+L Connector:Conn_Coaxial J13
+U 1 1 5C84FDFD
+P 8650 2900
+F 0 "J13" H 8750 2876 50  0000 L CNN
+F 1 "GREEN" H 8750 2785 50  0000 L CNN
+F 2 "extron-input:rca_black" H 8650 2900 50  0001 C CNN
+F 3 " ~" H 8650 2900 50  0001 C CNN
+	1    8650 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J14
+U 1 1 5C84FE72
+P 8650 3750
+F 0 "J14" H 8749 3726 50  0000 L CNN
+F 1 "BLUE" H 8749 3635 50  0000 L CNN
+F 2 "extron-input:rca_black" H 8650 3750 50  0001 C CNN
+F 3 " ~" H 8650 3750 50  0001 C CNN
+	1    8650 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J15
+U 1 1 5C84FF62
+P 8650 4550
+F 0 "J15" H 8750 4526 50  0000 L CNN
+F 1 "SYNC" H 8750 4435 50  0000 L CNN
+F 2 "extron-input:rca_black" H 8650 4550 50  0001 C CNN
+F 3 " ~" H 8650 4550 50  0001 C CNN
+	1    8650 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8650 4750 8250 4750
+Wire Wire Line
+	8450 4550 8450 4400
+Wire Wire Line
+	8450 4400 8050 4400
+Wire Wire Line
+	8050 4400 8050 4550
+Wire Wire Line
+	8650 3950 8250 3950
+Wire Wire Line
+	8050 3750 8050 3600
+Wire Wire Line
+	8050 3600 8450 3600
+Wire Wire Line
+	8450 3600 8450 3750
+Wire Wire Line
+	8250 3100 8650 3100
+Wire Wire Line
+	8050 2900 8050 2750
+Wire Wire Line
+	8050 2750 8450 2750
+Wire Wire Line
+	8450 2750 8450 2900
+$Comp
+L Connector:Conn_Coaxial J2
+U 1 1 5C8498CA
+P 8250 2050
+F 0 "J2" H 8350 2026 50  0000 L CNN
+F 1 "RED" H 8350 1935 50  0000 L CNN
+F 2 "extron-input:rca_boom" H 8250 2050 50  0001 C CNN
+F 3 " ~" H 8250 2050 50  0001 C CNN
+	1    8250 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J3
+U 1 1 5C849928
+P 8250 2900
+F 0 "J3" H 8350 2876 50  0000 L CNN
+F 1 "GREEN" H 8350 2785 50  0000 L CNN
+F 2 "extron-input:rca_boom" H 8250 2900 50  0001 C CNN
+F 3 " ~" H 8250 2900 50  0001 C CNN
+	1    8250 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J4
+U 1 1 5C84997A
+P 8250 3750
+F 0 "J4" H 8349 3726 50  0000 L CNN
+F 1 "BLUE" H 8349 3635 50  0000 L CNN
+F 2 "extron-input:rca_boom" H 8250 3750 50  0001 C CNN
+F 3 " ~" H 8250 3750 50  0001 C CNN
+	1    8250 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J5
+U 1 1 5C8499F8
+P 8250 4550
+F 0 "J5" H 8350 4526 50  0000 L CNN
+F 1 "SYNC" H 8350 4435 50  0000 L CNN
+F 2 "extron-input:rca_boom" H 8250 4550 50  0001 C CNN
+F 3 " ~" H 8250 4550 50  0001 C CNN
+	1    8250 4550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
