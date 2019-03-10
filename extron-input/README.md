@@ -52,16 +52,19 @@ BOM Total with shipping: __~$70__
 
 PCBs: __$5 for 10__, plus $6 for slower shipping
 
-Cost for 10 boards, all parts: $70+16 = $86 = __$8.60__ each
+Cost for 10 boards, all parts: $70+11 = $81 = __$8.10__ each
 
 Other parts 
 ===========
 
 Phoenix adapter
 ---------------
-$2 for 10x more boards on JLCPCB order, and $0.89 for JST headers
 
-__$2.89__ for 10x populated boards = __$0.29 each__
+Respun to use JST headers: https://github.com/rattboi/phoenix-audio-adapter-kicad/tree/jst-xh/
+
+$5 for 10x more boards on JLCPCB order, and $0.89 for JST headers
+
+__$5.89__ for 10x populated boards = __$0.59 each__
 
 JST cables (connect input audio to phoenix board)
 ----------
@@ -87,9 +90,9 @@ $25.68 for 40
 
 10x board Total
 ===============
-10x board + phoenix + cables + adapters: $86 + $3 + $8 + $23 = __~$120__
+10x board + phoenix + cables + adapters: $81 + $6 + $8 + $22 = __~$117__
 
-__$12.00 each, all parts, shipped__
+__$11.70 each, all parts, shipped__
 
 10x boards Stripped-down 
 ------------------------
