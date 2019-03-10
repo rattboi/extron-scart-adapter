@@ -64,6 +64,7 @@ F 0 "J1" H 3850 4520 50  0000 C CNN
 F 1 "SCART-F" H 3850 4429 50  0000 C CNN
 F 2 "extron-input:SCART_F_RA" H 3850 3150 50  0001 C CNN
 F 3 " ~" H 3850 3150 50  0001 C CNN
+F 4 "https://console5.com/store/female-scart-jp21-through-hole-pcb-mount-21-pin-connector-right-angle.html" H 3850 3100 50  0001 C CNN "Vendor"
 	1    3850 3100
 	1    0    0    -1  
 $EndComp
@@ -75,6 +76,7 @@ F 0 "J6" H 4756 4828 50  0000 C CNN
 F 1 "PHOENIX" H 4756 4737 50  0000 C CNN
 F 2 "Connector_JST:JST_XH_S03B-XH-A_1x03_P2.50mm_Horizontal" H 4650 4550 50  0001 C CNN
 F 3 "~" H 4650 4550 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/XH-Connectors_JST_S3B-XH-A-LF-SN_XHsocket-1-3P-Curved-needle-pitch2-5mm_C157928.html" H 4650 4550 50  0001 C CNN "Vendor"
 	1    4650 4550
 	1    0    0    -1  
 $EndComp
@@ -86,6 +88,7 @@ F 0 "J7" H 5900 5600 50  0000 R CNN
 F 1 "SENSE" H 5700 5800 50  0000 R CNN
 F 2 "Connector_JST:JST_XH_S02B-XH-A_1x02_P2.50mm_Horizontal" H 5750 5800 50  0001 C CNN
 F 3 "~" H 5750 5800 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/XH-Connectors_JST_S2B-XH-A-LF-SN_XHsocket-1-2P-Curved-needle-pitch2-5mm_C157931.html" H 5750 5800 50  0001 C CNN "Vendor"
 	1    5750 5800
 	-1   0    0    1   
 $EndComp
@@ -97,6 +100,7 @@ F 0 "U1" H 6500 2850 50  0000 C CNN
 F 1 "LM1881" H 6500 2750 50  0000 C CNN
 F 2 "Package_DIP:DIP-8_W7.62mm" H 6750 2400 50  0001 C CNN
 F 3 "" H 6750 2400 50  0001 C CNN
+F 4 "https://www.ti.com/store/ti/en/p/product/?p=LM1881N/NOPB&HQS=corp-tistore-null-storeinv-invf-store-octopart-wwe" H 6750 2400 50  0001 C CNN "Vendor"
 	1    6750 2400
 	1    0    0    -1  
 $EndComp
@@ -108,6 +112,7 @@ F 0 "R1" V 5700 2850 50  0000 C CNN
 F 1 "680KΩ" V 5600 2850 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical" V 5840 2840 50  0001 C CNN
 F 3 "~" H 5800 2850 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Others_FlyWin-CR1-8W-5-680K-OTB5_C337028.html" V 5800 2850 50  0001 C CNN "Vendor"
 	1    5800 2850
 	0    -1   -1   0   
 $EndComp
@@ -119,6 +124,7 @@ F 0 "C2" V 5950 2500 50  0000 C CNN
 F 1 "0.1uF" V 6050 2500 50  0000 C CNN
 F 2 "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 5800 2500 50  0001 C CNN
 F 3 "~" H 5800 2500 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-Leaded_100nF-104-20-100V_C154503.html" V 5800 2500 50  0001 C CNN "Vendor"
 	1    5800 2500
 	0    1    1    0   
 $EndComp
@@ -165,6 +171,7 @@ F 0 "C1" V 6029 2300 50  0000 C CNN
 F 1 "0.1uF" V 5938 2300 50  0000 C CNN
 F 2 "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 5800 2300 50  0001 C CNN
 F 3 "~" H 5800 2300 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-Leaded_100nF-104-20-100V_C154503.html" V 5800 2300 50  0001 C CNN "Vendor"
 	1    5800 2300
 	0    -1   -1   0   
 $EndComp
@@ -189,6 +196,7 @@ F 0 "SW1" H 5100 3685 50  0000 C CNN
 F 1 "SW_DPDT_x2" H 5100 3594 50  0000 C CNN
 F 2 "Button_Switch_THT:SW_CuK_JS202011AQN_DPDT_Angled" H 5100 3400 50  0001 C CNN
 F 3 "" H 5100 3400 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Toggle-Switches_C-K_JS202011AQN_C-K-JS202011AQN_C221662.html" H 5100 3400 50  0001 C CNN "Vendor"
 	2    5100 3400
 	1    0    0    -1  
 $EndComp
@@ -315,6 +323,7 @@ F 0 "D1" H 4350 5484 50  0000 C CNN
 F 1 "1N4148" H 4350 5575 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp" H 4350 5700 50  0001 C CNN
 F 3 "~" H 4350 5700 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Switching-Diode_1N4148_C14516.html" H 4350 5700 50  0001 C CNN "Vendor"
 	1    4350 5700
 	-1   0    0    1   
 $EndComp
@@ -326,6 +335,7 @@ F 0 "R2" V 4595 5700 50  0000 C CNN
 F 1 "100KΩ" V 4686 5700 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical" V 4840 5690 50  0001 C CNN
 F 3 "~" H 4800 5700 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Carbon-Film-Resistors_100KR-104-5_C120103.html" V 4800 5700 50  0001 C CNN "Vendor"
 	1    4800 5700
 	0    1    1    0   
 $EndComp
@@ -337,6 +347,7 @@ F 0 "D2" V 5004 5929 50  0000 L CNN
 F 1 "1N4728A" V 5095 5929 50  0000 L CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp" H 5050 5850 50  0001 C CNN
 F 3 "~" H 5050 5850 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Zener-Diodes_ON-Semicon_1N4728A_ON-Semicon-ON-1N4728A_C140852.html" V 5050 5850 50  0001 C CNN "Vendor"
 	1    5050 5850
 	0    1    1    0   
 $EndComp
@@ -371,6 +382,7 @@ F 0 "R3" V 5145 5700 50  0000 C CNN
 F 1 "1KΩ" V 5236 5700 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P1.90mm_Vertical" V 5390 5690 50  0001 C CNN
 F 3 "~" H 5350 5700 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Carbon-Film-Resistors_1KR-102-5_C120055.html" V 5350 5700 50  0001 C CNN "Vendor"
 	1    5350 5700
 	0    1    1    0   
 $EndComp
@@ -388,6 +400,7 @@ F 0 "J12" H 8750 2026 50  0000 L CNN
 F 1 "RED" H 8750 1935 50  0000 L CNN
 F 2 "extron-input:rca_black" H 8650 2050 50  0001 C CNN
 F 3 " ~" H 8650 2050 50  0001 C CNN
+F 4 "https://www.arrow.com/en/products/rcj-042/cui-inc" H 8650 2050 50  0001 C CNN "Vendor"
 	1    8650 2050
 	1    0    0    -1  
 $EndComp
@@ -407,6 +420,7 @@ F 0 "J13" H 8750 2876 50  0000 L CNN
 F 1 "GREEN" H 8750 2785 50  0000 L CNN
 F 2 "extron-input:rca_black" H 8650 2900 50  0001 C CNN
 F 3 " ~" H 8650 2900 50  0001 C CNN
+F 4 "https://www.arrow.com/en/products/rcj-046/cui-inc" H 8650 2900 50  0001 C CNN "Vendor"
 	1    8650 2900
 	1    0    0    -1  
 $EndComp
@@ -418,6 +432,7 @@ F 0 "J14" H 8749 3726 50  0000 L CNN
 F 1 "BLUE" H 8749 3635 50  0000 L CNN
 F 2 "extron-input:rca_black" H 8650 3750 50  0001 C CNN
 F 3 " ~" H 8650 3750 50  0001 C CNN
+F 4 "https://www.arrow.com/en/products/rcj-045/cui-inc" H 8650 3750 50  0001 C CNN "Vendor"
 	1    8650 3750
 	1    0    0    -1  
 $EndComp
@@ -429,6 +444,7 @@ F 0 "J15" H 8750 4526 50  0000 L CNN
 F 1 "SYNC" H 8750 4435 50  0000 L CNN
 F 2 "extron-input:rca_black" H 8650 4550 50  0001 C CNN
 F 3 " ~" H 8650 4550 50  0001 C CNN
+F 4 "https://www.arrow.com/en/products/rcj-044/cui-inc" H 8650 4550 50  0001 C CNN "Vendor"
 	1    8650 4550
 	1    0    0    -1  
 $EndComp
@@ -464,6 +480,7 @@ F 0 "J2" H 8350 2026 50  0000 L CNN
 F 1 "RED" H 8350 1935 50  0000 L CNN
 F 2 "extron-input:rca_boom" H 8250 2050 50  0001 C CNN
 F 3 " ~" H 8250 2050 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/AV-Connectors_AV-5_C18080.html" H 8250 2050 50  0001 C CNN "Vendor"
 	1    8250 2050
 	1    0    0    -1  
 $EndComp
@@ -475,6 +492,7 @@ F 0 "J3" H 8350 2876 50  0000 L CNN
 F 1 "GREEN" H 8350 2785 50  0000 L CNN
 F 2 "extron-input:rca_boom" H 8250 2900 50  0001 C CNN
 F 3 " ~" H 8250 2900 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/AV-Connectors_AV-5_C18080.html" H 8250 2900 50  0001 C CNN "Vendor"
 	1    8250 2900
 	1    0    0    -1  
 $EndComp
@@ -486,6 +504,7 @@ F 0 "J4" H 8349 3726 50  0000 L CNN
 F 1 "BLUE" H 8349 3635 50  0000 L CNN
 F 2 "extron-input:rca_boom" H 8250 3750 50  0001 C CNN
 F 3 " ~" H 8250 3750 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/AV-Connectors_AV-5_C18080.html" H 8250 3750 50  0001 C CNN "Vendor"
 	1    8250 3750
 	1    0    0    -1  
 $EndComp
@@ -497,6 +516,7 @@ F 0 "J5" H 8350 4526 50  0000 L CNN
 F 1 "SYNC" H 8350 4435 50  0000 L CNN
 F 2 "extron-input:rca_boom" H 8250 4550 50  0001 C CNN
 F 3 " ~" H 8250 4550 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/AV-Connectors_AV-5_C18080.html" H 8250 4550 50  0001 C CNN "Vendor"
 	1    8250 4550
 	1    0    0    -1  
 $EndComp
