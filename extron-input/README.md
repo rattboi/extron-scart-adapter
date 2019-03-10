@@ -66,17 +66,23 @@ __$2.89__ for 10x populated boards = __$0.29 each__
 JST cables (connect input audio to phoenix board)
 ----------
 https://www.amazon.com/gp/product/B07HRMWVK9/
+
 __$8 for 10__(need to find a better source)
 
 BNC M to RCA M Plug Adapters
 ---------------
 https://www.amazon.com/gp/product/B005C2KA88/
+
 $5.39 for 10
+
 __$21.56 for 40__ (4x per board, 10 boards)
 
 Alternative: 
+
 https://www.amazon.com/gp/product/B01H1A4QAQ/
+
 $6.42 for 10
+
 $25.68 for 40
 
 10x board Total
@@ -93,11 +99,15 @@ If you were to remove the optional components (no sync stripper, no sense circui
 Removing switch + lm1881 and passives for lm1881 + passives for sense circuit + sense connector: 
 
 LCSC     Sub-total: $7.06
+
 Console5 Sub-total: $14.90 for SCART connectors
 
 BOM Total with shipping: $7.06 + $14.90 + $5 = $27
+
 PCBS are the same, so $11 for 10x boards shipped
+
 The rest is the same
 
 10x board + phoenix + cables + adapters: $38 + $3 + $8 + $23 = __~$72__
+
 __$7.20 each, stripped-down, shipped__
