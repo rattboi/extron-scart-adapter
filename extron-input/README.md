@@ -1,6 +1,8 @@
 Extron SCART Input adapter
 ==========================
 
+Note: This is out-of-date currently. It will be revised shortly.
+
 PCB Renders
 ===========
 
