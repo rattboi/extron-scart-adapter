@@ -39,16 +39,20 @@ BOM
 | 20   | 1   | U1               | LM1881     | Package_DIP:DIP-8_W7.62mm,                                  | https://www.ti.com/store/ti/en/p/product/?p=LM1881N/NOPB&HQS=corp-tistore-null-storeinv-invf-store-octopart-wwe      |
 
 
-LCSC     Sub-total: $14.94 for everything for 10x boards (plus lots of spare parts)
-Console5 Sub-total: $14.90 for RA Female SCART connectors
-TI       Sub-total: $28.40 for LM1881n 
+LCSC     Sub-total: __$14.94__ for everything for 10x boards (plus lots of spare parts)
 
-BOM Total for 10x boards: $58.40 plus Console5/TI shipping
-BOM Total with shipping: ~$70
+Console5 Sub-total: __$14.90__ for RA Female SCART connectors
 
-PCBs: $5 for 10, plus $6 for slower shipping
+TI       Sub-total: __$28.40__ for LM1881n 
 
-Cost for 10 boards, all parts: $70+16 = $86 = $8.60 each
+BOM Total for 10x boards: __$58.40__ plus Console5/TI shipping
+
+BOM Total with shipping: __~$70__
+
+
+PCBs: __$5 for 10__, plus $6 for slower shipping
+
+Cost for 10 boards, all parts: $70+16 = $86 = __$8.60__ each
 
 Other parts 
 ===========
@@ -57,28 +61,29 @@ Phoenix adapter
 ---------------
 $2 for 10x more boards on JLCPCB order, and $0.89 for JST headers
 
-$2.89 for 10x populated boards = $0.29 each
+__$2.89__ for 10x populated boards = __$0.29 each__
 
 JST cables (connect input audio to phoenix board)
 ----------
 https://www.amazon.com/gp/product/B07HRMWVK9/
-$8 for 10 (need to find a better source)
+__$8 for 10__(need to find a better source)
 
 BNC M to RCA M Plug Adapters
 ---------------
 https://www.amazon.com/gp/product/B005C2KA88/
 $5.39 for 10
-$21.56 for 40 (4x per board, 10 boards)
+__$21.56 for 40__ (4x per board, 10 boards)
 
+Alternative: 
 https://www.amazon.com/gp/product/B01H1A4QAQ/
 $6.42 for 10
 $25.68 for 40
 
 10x board Total
 ===============
-10x board + phoenix + cables + adapters: $86 + $3 + $8 + $23 = ~$120
+10x board + phoenix + cables + adapters: $86 + $3 + $8 + $23 = __~$120__
 
-$12.00 each, all parts, shipped
+__$12.00 each, all parts, shipped__
 
 10x boards Stripped-down 
 ------------------------
@@ -94,5 +99,5 @@ BOM Total with shipping: $7.06 + $14.90 + $5 = $27
 PCBS are the same, so $11 for 10x boards shipped
 The rest is the same
 
-10x board + phoenix + cables + adapters: $38 + $3 + $8 + $23 = ~$72
-$7.20 each, shipped
+10x board + phoenix + cables + adapters: $38 + $3 + $8 + $23 = __~$72__
+__$7.20 each, stripped-down, shipped__
