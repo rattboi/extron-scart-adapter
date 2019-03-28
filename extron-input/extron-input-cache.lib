@@ -1,11 +1,46 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Connector_Conn_01x02_Male
+# extron-input-rescue_C_Small-Device
 #
-DEF Connector_Conn_01x02_Male J 0 40 Y N 1 F N
+DEF extron-input-rescue_C_Small-Device C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "extron-input-rescue_C_Small-Device" 10 -80 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# extron-input-rescue_Conn_01x01-Connector_Generic
+#
+DEF extron-input-rescue_Conn_01x01-Connector_Generic J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "Connector_Conn_01x02_Male" 0 -200 50 H V C CNN
+F1 "extron-input-rescue_Conn_01x01-Connector_Generic" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*
+$ENDFPLIST
+DRAW
+S -50 5 0 -5 1 1 6 N
+S -50 50 50 -50 1 1 10 f
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# extron-input-rescue_Conn_01x02_Male-Connector
+#
+DEF extron-input-rescue_Conn_01x02_Male-Connector J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "extron-input-rescue_Conn_01x02_Male-Connector" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -21,11 +56,11 @@ X Pin_2 2 200 -100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_Conn_01x03_Male
+# extron-input-rescue_Conn_01x03_Male-Connector
 #
-DEF Connector_Conn_01x03_Male J 0 40 Y N 1 F N
+DEF extron-input-rescue_Conn_01x03_Male-Connector J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "Connector_Conn_01x03_Male" 0 -200 50 H V C CNN
+F1 "extron-input-rescue_Conn_01x03_Male-Connector" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -44,11 +79,11 @@ X Pin_3 3 200 -100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_Conn_Coaxial
+# extron-input-rescue_Conn_Coaxial-Connector
 #
-DEF Connector_Conn_Coaxial J 0 40 Y N 1 F N
+DEF extron-input-rescue_Conn_Coaxial-Connector J 0 40 Y N 1 F N
 F0 "J" 10 120 50 H V C CNN
-F1 "Connector_Conn_Coaxial" 115 0 50 V V C CNN
+F1 "extron-input-rescue_Conn_Coaxial-Connector" 115 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -69,28 +104,109 @@ X Ext 2 0 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_Generic_Conn_01x01
+# extron-input-rescue_D_ALT-Device
 #
-DEF Connector_Generic_Conn_01x01 J 0 40 Y N 1 F N
-F0 "J" 0 100 50 H V C CNN
-F1 "Connector_Generic_Conn_01x01" 0 -100 50 H V C CNN
+DEF extron-input-rescue_D_ALT-Device D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "extron-input-rescue_D_ALT-Device" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Connector*:*
+ TO-???*
+ *_Diode_*
+ *SingleDiode*
+ D_*
 $ENDFPLIST
 DRAW
-S -50 5 0 -5 1 1 6 N
-S -50 50 50 -50 1 1 10 f
-X Pin_1 1 -200 0 150 R 50 50 1 1 P
+P 2 0 1 8 -50 50 -50 -50 N
+P 2 0 1 0 50 0 -50 0 N
+P 4 0 1 8 50 50 50 -50 -50 0 50 50 F
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_SCART-F
+# extron-input-rescue_D_Zener-Device
 #
-DEF Connector_SCART-F J 0 30 Y N 1 F N
+DEF extron-input-rescue_D_Zener-Device D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "extron-input-rescue_D_Zener-Device" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ TO-???*
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 50 0 -50 0 N
+P 3 0 1 8 -50 -50 -50 50 -30 50 N
+P 4 0 1 8 50 -50 50 50 -50 0 50 -50 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# extron-input-rescue_GND-power
+#
+DEF extron-input-rescue_GND-power #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "extron-input-rescue_GND-power" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# extron-input-rescue_LM1881-Video
+#
+DEF extron-input-rescue_LM1881-Video U 0 40 Y Y 1 F N
+F0 "U" -350 350 50 H V C CNN
+F1 "extron-input-rescue_LM1881-Video" 250 350 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -400 300 400 -200 0 1 10 f
+X CSYNC 1 500 200 100 L 50 50 1 1 O
+X VIDEO 2 -500 100 100 R 50 50 1 1 I
+X FRAME 3 500 100 100 L 50 50 1 1 O
+X GND 4 0 -300 100 U 50 50 1 1 W
+X BURST 5 500 0 100 L 50 50 1 1 O
+X INT 6 -500 0 100 R 50 50 1 1 I
+X O/E 7 500 -100 100 L 50 50 1 1 O
+X VCC 8 0 400 100 D 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# extron-input-rescue_R_US-Device
+#
+DEF extron-input-rescue_R_US-Device R 0 0 N Y 1 F N
+F0 "R" 100 0 50 V V C CNN
+F1 "extron-input-rescue_R_US-Device" -100 0 50 V V C CNN
+F2 "" 40 -10 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 0 -90 0 -100 N
+P 2 0 1 0 0 90 0 100 N
+P 5 0 1 0 0 -30 40 -45 0 -60 -40 -75 0 -90 N
+P 5 0 1 0 0 30 40 15 0 0 -40 -15 0 -30 N
+P 5 0 1 0 0 90 40 75 0 60 -40 45 0 30 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# extron-input-rescue_SCART-F-Connector
+#
+DEF extron-input-rescue_SCART-F-Connector J 0 30 Y N 1 F N
 F0 "J" 0 1250 50 H V C CNN
-F1 "Connector_SCART-F" 40 -1150 50 H V C CNN
+F1 "extron-input-rescue_SCART-F-Connector" 40 -1150 50 H V C CNN
 F2 "" 0 50 50 H I C CNN
 F3 "" 0 50 50 H I C CNN
 DRAW
@@ -156,94 +272,11 @@ X P9 9 -600 -200 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device_C_Small
+# extron-input-rescue_SW_DPDT_x2-Switch
 #
-DEF Device_C_Small C 0 10 N N 1 F N
-F0 "C" 10 70 50 H V L CNN
-F1 "Device_C_Small" 10 -80 50 H V L CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- C_*
-$ENDFPLIST
-DRAW
-P 2 0 1 13 -60 -20 60 -20 N
-P 2 0 1 12 -60 20 60 20 N
-X ~ 1 0 100 80 D 50 50 1 1 P
-X ~ 2 0 -100 80 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device_D_ALT
-#
-DEF Device_D_ALT D 0 40 N N 1 F N
-F0 "D" 0 100 50 H V C CNN
-F1 "Device_D_ALT" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- TO-???*
- *_Diode_*
- *SingleDiode*
- D_*
-$ENDFPLIST
-DRAW
-P 2 0 1 8 -50 50 -50 -50 N
-P 2 0 1 0 50 0 -50 0 N
-P 4 0 1 8 50 50 50 -50 -50 0 50 50 F
-X K 1 -150 0 100 R 50 50 1 1 P
-X A 2 150 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device_D_Zener
-#
-DEF Device_D_Zener D 0 40 N N 1 F N
-F0 "D" 0 100 50 H V C CNN
-F1 "Device_D_Zener" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- TO-???*
- *_Diode_*
- *SingleDiode*
- D_*
-$ENDFPLIST
-DRAW
-P 2 0 1 0 50 0 -50 0 N
-P 3 0 1 8 -50 -50 -50 50 -30 50 N
-P 4 0 1 8 50 -50 50 50 -50 0 50 -50 N
-X K 1 -150 0 100 R 50 50 1 1 P
-X A 2 150 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device_R_US
-#
-DEF Device_R_US R 0 0 N Y 1 F N
-F0 "R" 100 0 50 V V C CNN
-F1 "Device_R_US" -100 0 50 V V C CNN
-F2 "" 40 -10 50 V I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- R_*
-$ENDFPLIST
-DRAW
-P 2 0 1 0 0 -90 0 -100 N
-P 2 0 1 0 0 90 0 100 N
-P 5 0 1 0 0 -30 40 -45 0 -60 -40 -75 0 -90 N
-P 5 0 1 0 0 30 40 15 0 0 -40 -15 0 -30 N
-P 5 0 1 0 0 90 40 75 0 60 -40 45 0 30 N
-X ~ 1 0 150 50 D 50 50 1 1 P
-X ~ 2 0 -150 50 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Switch_SW_DPDT_x2
-#
-DEF Switch_SW_DPDT_x2 SW 0 0 Y N 2 F N
+DEF extron-input-rescue_SW_DPDT_x2-Switch SW 0 0 Y N 2 F N
 F0 "SW" 0 170 50 H V C CNN
-F1 "Switch_SW_DPDT_x2" 0 -200 50 H V C CNN
+F1 "extron-input-rescue_SW_DPDT_x2-Switch" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -260,39 +293,6 @@ X C 3 200 -100 100 L 50 50 1 1 P
 X A 4 200 100 100 L 50 50 2 1 P
 X B 5 -200 0 100 R 50 50 2 1 P
 X C 6 200 -100 100 L 50 50 2 1 P
-ENDDRAW
-ENDDEF
-#
-# Video_LM1881
-#
-DEF Video_LM1881 U 0 40 Y Y 1 F N
-F0 "U" -350 350 50 H V C CNN
-F1 "Video_LM1881" 250 350 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-S -400 300 400 -200 0 1 10 f
-X CSYNC 1 500 200 100 L 50 50 1 1 O
-X VIDEO 2 -500 100 100 R 50 50 1 1 I
-X FRAME 3 500 100 100 L 50 50 1 1 O
-X GND 4 0 -300 100 U 50 50 1 1 W
-X BURST 5 500 0 100 L 50 50 1 1 O
-X INT 6 -500 0 100 R 50 50 1 1 I
-X O/E 7 500 -100 100 L 50 50 1 1 O
-X VCC 8 0 400 100 D 50 50 1 1 W
-ENDDRAW
-ENDDEF
-#
-# power_GND
-#
-DEF power_GND #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power_GND" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
-X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
