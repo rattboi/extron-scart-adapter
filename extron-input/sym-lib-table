@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name video)(type Legacy)(uri ${KIPRJMOD}/video.lib)(options "")(descr ""))
+  (lib (name extron-input-rescue)(type Legacy)(uri ${KIPRJMOD}/extron-input-rescue.lib)(options "")(descr ""))
 )
