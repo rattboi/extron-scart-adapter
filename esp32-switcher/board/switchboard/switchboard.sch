@@ -1,0 +1,379 @@
+EESchema Schematic File Version 4
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_01x03 J1
+U 1 1 5CA18F92
+P 6900 5150
+F 0 "J1" V 6772 5330 50  0000 L CNN
+F 1 "Conn_01x03" V 6863 5330 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_B3B-XH-AM_1x03_P2.50mm_Vertical" H 6900 5150 50  0001 C CNN
+F 3 "~" H 6900 5150 50  0001 C CNN
+	1    6900 5150
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J3
+U 1 1 5CA196A9
+P 7950 2900
+F 0 "J3" H 8030 2892 50  0000 L CNN
+F 1 "Conn_01x02" H 8030 2801 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical" H 7950 2900 50  0001 C CNN
+F 3 "~" H 7950 2900 50  0001 C CNN
+	1    7950 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J2
+U 1 1 5CA19C8A
+P 6600 2250
+F 0 "J2" V 6564 1962 50  0000 R CNN
+F 1 "Conn_01x04" V 6473 1962 50  0000 R CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 6600 2250 50  0001 C CNN
+F 3 "~" H 6600 2250 50  0001 C CNN
+	1    6600 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J4
+U 1 1 5CA1C04C
+P 7950 3150
+F 0 "J4" H 8030 3142 50  0000 L CNN
+F 1 "Conn_01x02" H 8030 3051 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical" H 7950 3150 50  0001 C CNN
+F 3 "~" H 7950 3150 50  0001 C CNN
+	1    7950 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J5
+U 1 1 5CA1C459
+P 7950 3400
+F 0 "J5" H 8030 3392 50  0000 L CNN
+F 1 "Conn_01x02" H 8030 3301 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical" H 7950 3400 50  0001 C CNN
+F 3 "~" H 7950 3400 50  0001 C CNN
+	1    7950 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J6
+U 1 1 5CA1E338
+P 7950 3650
+F 0 "J6" H 8030 3642 50  0000 L CNN
+F 1 "Conn_01x02" H 8030 3551 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical" H 7950 3650 50  0001 C CNN
+F 3 "~" H 7950 3650 50  0001 C CNN
+	1    7950 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J7
+U 1 1 5CA1E6C2
+P 7950 3900
+F 0 "J7" H 8030 3892 50  0000 L CNN
+F 1 "Conn_01x02" H 8030 3801 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical" H 7950 3900 50  0001 C CNN
+F 3 "~" H 7950 3900 50  0001 C CNN
+	1    7950 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J8
+U 1 1 5CA1E911
+P 3450 4500
+F 0 "J8" H 3530 4492 50  0000 L CNN
+F 1 "Conn_01x02" H 3530 4401 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical" H 3450 4500 50  0001 C CNN
+F 3 "~" H 3450 4500 50  0001 C CNN
+	1    3450 4500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J9
+U 1 1 5CA1EDBC
+P 3450 4250
+F 0 "J9" H 3530 4242 50  0000 L CNN
+F 1 "Conn_01x02" H 3530 4151 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical" H 3450 4250 50  0001 C CNN
+F 3 "~" H 3450 4250 50  0001 C CNN
+	1    3450 4250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J10
+U 1 1 5CA1F1F0
+P 3450 4000
+F 0 "J10" H 3530 3992 50  0000 L CNN
+F 1 "Conn_01x02" H 3530 3901 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical" H 3450 4000 50  0001 C CNN
+F 3 "~" H 3450 4000 50  0001 C CNN
+	1    3450 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J11
+U 1 1 5CA1F5C5
+P 3450 3750
+F 0 "J11" H 3530 3742 50  0000 L CNN
+F 1 "Conn_01x02" H 3530 3651 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical" H 3450 3750 50  0001 C CNN
+F 3 "~" H 3450 3750 50  0001 C CNN
+	1    3450 3750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J12
+U 1 1 5CA1F98B
+P 3450 3500
+F 0 "J12" H 3530 3492 50  0000 L CNN
+F 1 "Conn_01x02" H 3530 3401 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical" H 3450 3500 50  0001 C CNN
+F 3 "~" H 3450 3500 50  0001 C CNN
+	1    3450 3500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J13
+U 1 1 5CA1FBF3
+P 3450 3250
+F 0 "J13" H 3530 3242 50  0000 L CNN
+F 1 "Conn_01x02" H 3530 3151 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical" H 3450 3250 50  0001 C CNN
+F 3 "~" H 3450 3250 50  0001 C CNN
+	1    3450 3250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J14
+U 1 1 5CA1FEDD
+P 3450 3000
+F 0 "J14" H 3530 2992 50  0000 L CNN
+F 1 "Conn_01x02" H 3530 2901 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical" H 3450 3000 50  0001 C CNN
+F 3 "~" H 3450 3000 50  0001 C CNN
+	1    3450 3000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6300 3900 6600 3900
+Wire Wire Line
+	6700 3800 6700 2450
+Wire Wire Line
+	6300 3800 6700 3800
+Wire Wire Line
+	6600 3900 6600 2450
+$Comp
+L power:GND #PWR0101
+U 1 1 5CA2F4D0
+P 6500 2450
+F 0 "#PWR0101" H 6500 2200 50  0001 C CNN
+F 1 "GND" H 6505 2277 50  0000 C CNN
+F 2 "" H 6500 2450 50  0001 C CNN
+F 3 "" H 6500 2450 50  0001 C CNN
+	1    6500 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0102
+U 1 1 5CA31536
+P 4700 2800
+F 0 "#PWR0102" H 4700 2650 50  0001 C CNN
+F 1 "+3V3" H 4715 2973 50  0000 C CNN
+F 2 "" H 4700 2800 50  0001 C CNN
+F 3 "" H 4700 2800 50  0001 C CNN
+	1    4700 2800
+	1    0    0    -1  
+$EndComp
+Text GLabel 4700 2800 0    50   Input ~ 0
+PWR
+Text GLabel 6800 2450 3    50   Input ~ 0
+PWR
+$Comp
+L power:GND #PWR0103
+U 1 1 5CA3225F
+P 6450 2800
+F 0 "#PWR0103" H 6450 2550 50  0001 C CNN
+F 1 "GND" H 6455 2627 50  0000 C CNN
+F 2 "" H 6450 2800 50  0001 C CNN
+F 3 "" H 6450 2800 50  0001 C CNN
+	1    6450 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 2800 6450 2800
+$Comp
+L power:GND #PWR0104
+U 1 1 5CA32A24
+P 6450 3400
+F 0 "#PWR0104" H 6450 3150 50  0001 C CNN
+F 1 "GND" H 6455 3227 50  0000 C CNN
+F 2 "" H 6450 3400 50  0001 C CNN
+F 3 "" H 6450 3400 50  0001 C CNN
+	1    6450 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 3400 6450 3400
+$Comp
+L power:GND #PWR0105
+U 1 1 5CA334A4
+P 4600 4100
+F 0 "#PWR0105" H 4600 3850 50  0001 C CNN
+F 1 "GND" H 4605 3927 50  0000 C CNN
+F 2 "" H 4600 4100 50  0001 C CNN
+F 3 "" H 4600 4100 50  0001 C CNN
+	1    4600 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 4100 4700 4100
+NoConn ~ 4700 3200
+NoConn ~ 4700 3300
+NoConn ~ 4700 3000
+NoConn ~ 4700 3100
+NoConn ~ 4700 4500
+NoConn ~ 4700 4400
+NoConn ~ 4700 4300
+NoConn ~ 6300 4600
+NoConn ~ 6300 4500
+NoConn ~ 6300 4400
+NoConn ~ 4700 4600
+NoConn ~ 6300 3100
+NoConn ~ 6300 3200
+NoConn ~ 4700 2900
+Text GLabel 7750 3000 0    50   Input ~ 0
+GND
+Text GLabel 7750 3250 0    50   Input ~ 0
+GND
+Text GLabel 7750 3500 0    50   Input ~ 0
+GND
+Text GLabel 7750 3750 0    50   Input ~ 0
+GND
+Text GLabel 7750 4000 0    50   Input ~ 0
+GND
+Text GLabel 3650 4400 2    50   Input ~ 0
+GND
+Text GLabel 3650 4150 2    50   Input ~ 0
+GND
+Text GLabel 3650 3900 2    50   Input ~ 0
+GND
+Text GLabel 3650 3650 2    50   Input ~ 0
+GND
+Text GLabel 3650 3400 2    50   Input ~ 0
+GND
+Text GLabel 3650 3150 2    50   Input ~ 0
+GND
+Text GLabel 3650 2900 2    50   Input ~ 0
+GND
+NoConn ~ 6300 4100
+NoConn ~ 6300 4200
+NoConn ~ 4700 4000
+NoConn ~ 6300 4300
+Wire Wire Line
+	4700 4200 4350 4200
+Wire Wire Line
+	6300 3000 7150 3000
+Wire Wire Line
+	4700 3400 4350 3400
+$Comp
+L ESP32-DEVKITC-32D:ESP32-DEVKITC-32D U1
+U 1 1 5CA09322
+P 5500 3700
+F 0 "U1" H 5500 4867 50  0000 C CNN
+F 1 "ESP32-DEVKITC-32D" H 5500 4776 50  0000 C CNN
+F 2 "MODULE_ESP32-DEVKITC-32D" H 5500 3700 50  0001 L BNN
+F 3 "" H 5500 3700 50  0001 L BNN
+F 4 "Eval Board For Esp-Wroom-32" H 5500 3700 50  0001 L BNN "Field4"
+F 5 "ESP32-DEVKITC-32D" H 5500 3700 50  0001 L BNN "Field5"
+F 6 "Unavailable" H 5500 3700 50  0001 L BNN "Field6"
+F 7 "Espressif Systems" H 5500 3700 50  0001 L BNN "Field7"
+F 8 "None" H 5500 3700 50  0001 L BNN "Field8"
+	1    5500 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 4000 6800 4000
+Wire Wire Line
+	6300 3700 7000 3700
+Wire Wire Line
+	6300 2900 7750 2900
+Wire Wire Line
+	7150 3000 7150 3150
+Wire Wire Line
+	7150 3150 7750 3150
+Wire Wire Line
+	7150 3300 7150 3400
+Wire Wire Line
+	7150 3400 7750 3400
+Wire Wire Line
+	6300 3300 7150 3300
+Wire Wire Line
+	7150 3500 7150 3650
+Wire Wire Line
+	7150 3650 7750 3650
+Wire Wire Line
+	6300 3500 7150 3500
+Wire Wire Line
+	7100 3600 7100 3900
+Wire Wire Line
+	7100 3900 7750 3900
+Wire Wire Line
+	6300 3600 7100 3600
+Wire Wire Line
+	6800 4000 6800 4950
+Wire Wire Line
+	7000 3700 7000 4950
+Text GLabel 6900 4950 1    50   Input ~ 0
+GND
+Wire Wire Line
+	4350 3400 4350 3000
+Wire Wire Line
+	4350 3000 3650 3000
+Wire Wire Line
+	4250 3500 4250 3250
+Wire Wire Line
+	4250 3250 3650 3250
+Wire Wire Line
+	4250 3500 4700 3500
+Wire Wire Line
+	4150 3600 4150 3500
+Wire Wire Line
+	4150 3500 3650 3500
+Wire Wire Line
+	4150 3600 4700 3600
+Wire Wire Line
+	4150 3700 4150 3750
+Wire Wire Line
+	4150 3750 3650 3750
+Wire Wire Line
+	4150 3700 4700 3700
+Wire Wire Line
+	4150 3800 4150 4000
+Wire Wire Line
+	4150 4000 3650 4000
+Wire Wire Line
+	4150 3800 4700 3800
+Wire Wire Line
+	4250 3900 4250 4250
+Wire Wire Line
+	4250 4250 3650 4250
+Wire Wire Line
+	4250 3900 4700 3900
+Wire Wire Line
+	4350 4200 4350 4500
+Wire Wire Line
+	4350 4500 3650 4500
+$EndSCHEMATC
