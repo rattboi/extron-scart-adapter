@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:switchboard-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -14,21 +15,21 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector_Generic:Conn_01x03 J1
+L Connector_Generic:Conn_01x03 J16
 U 1 1 5CA18F92
 P 6900 5150
-F 0 "J1" V 6772 5330 50  0000 L CNN
-F 1 "Conn_01x03" V 6863 5330 50  0000 L CNN
+F 0 "J16" V 6772 5330 50  0000 L CNN
+F 1 "Chain In" V 6863 5330 50  0000 L CNN
 F 2 "Connector_JST:JST_XH_B3B-XH-AM_1x03_P2.50mm_Vertical" H 6900 5150 50  0001 C CNN
 F 3 "~" H 6900 5150 50  0001 C CNN
 	1    6900 5150
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J3
+L Connector_Generic:Conn_01x02 J1
 U 1 1 5CA196A9
 P 7950 2900
-F 0 "J3" H 8030 2892 50  0000 L CNN
+F 0 "J1" H 8030 2892 50  0000 L CNN
 F 1 "Conn_01x02" H 8030 2801 50  0000 L CNN
 F 2 "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical" H 7950 2900 50  0001 C CNN
 F 3 "~" H 7950 2900 50  0001 C CNN
@@ -36,10 +37,10 @@ F 3 "~" H 7950 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x04 J2
+L Connector_Generic:Conn_01x04 J17
 U 1 1 5CA19C8A
 P 6600 2250
-F 0 "J2" V 6564 1962 50  0000 R CNN
+F 0 "J17" V 6564 1962 50  0000 R CNN
 F 1 "Conn_01x04" V 6473 1962 50  0000 R CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 6600 2250 50  0001 C CNN
 F 3 "~" H 6600 2250 50  0001 C CNN
@@ -47,10 +48,10 @@ F 3 "~" H 6600 2250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J4
+L Connector_Generic:Conn_01x02 J2
 U 1 1 5CA1C04C
 P 7950 3150
-F 0 "J4" H 8030 3142 50  0000 L CNN
+F 0 "J2" H 8030 3142 50  0000 L CNN
 F 1 "Conn_01x02" H 8030 3051 50  0000 L CNN
 F 2 "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical" H 7950 3150 50  0001 C CNN
 F 3 "~" H 7950 3150 50  0001 C CNN
@@ -58,10 +59,10 @@ F 3 "~" H 7950 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J5
+L Connector_Generic:Conn_01x02 J3
 U 1 1 5CA1C459
 P 7950 3400
-F 0 "J5" H 8030 3392 50  0000 L CNN
+F 0 "J3" H 8030 3392 50  0000 L CNN
 F 1 "Conn_01x02" H 8030 3301 50  0000 L CNN
 F 2 "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical" H 7950 3400 50  0001 C CNN
 F 3 "~" H 7950 3400 50  0001 C CNN
@@ -69,10 +70,10 @@ F 3 "~" H 7950 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J6
+L Connector_Generic:Conn_01x02 J4
 U 1 1 5CA1E338
 P 7950 3650
-F 0 "J6" H 8030 3642 50  0000 L CNN
+F 0 "J4" H 8030 3642 50  0000 L CNN
 F 1 "Conn_01x02" H 8030 3551 50  0000 L CNN
 F 2 "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical" H 7950 3650 50  0001 C CNN
 F 3 "~" H 7950 3650 50  0001 C CNN
@@ -80,10 +81,10 @@ F 3 "~" H 7950 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J7
+L Connector_Generic:Conn_01x02 J5
 U 1 1 5CA1E6C2
 P 7950 3900
-F 0 "J7" H 8030 3892 50  0000 L CNN
+F 0 "J5" H 8030 3892 50  0000 L CNN
 F 1 "Conn_01x02" H 8030 3801 50  0000 L CNN
 F 2 "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical" H 7950 3900 50  0001 C CNN
 F 3 "~" H 7950 3900 50  0001 C CNN
@@ -91,10 +92,10 @@ F 3 "~" H 7950 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J8
+L Connector_Generic:Conn_01x02 J12
 U 1 1 5CA1E911
 P 3450 4500
-F 0 "J8" H 3530 4492 50  0000 L CNN
+F 0 "J12" H 3530 4492 50  0000 L CNN
 F 1 "Conn_01x02" H 3530 4401 50  0000 L CNN
 F 2 "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical" H 3450 4500 50  0001 C CNN
 F 3 "~" H 3450 4500 50  0001 C CNN
@@ -102,10 +103,10 @@ F 3 "~" H 3450 4500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J9
+L Connector_Generic:Conn_01x02 J11
 U 1 1 5CA1EDBC
 P 3450 4250
-F 0 "J9" H 3530 4242 50  0000 L CNN
+F 0 "J11" H 3530 4242 50  0000 L CNN
 F 1 "Conn_01x02" H 3530 4151 50  0000 L CNN
 F 2 "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical" H 3450 4250 50  0001 C CNN
 F 3 "~" H 3450 4250 50  0001 C CNN
@@ -124,10 +125,10 @@ F 3 "~" H 3450 4000 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J11
+L Connector_Generic:Conn_01x02 J9
 U 1 1 5CA1F5C5
 P 3450 3750
-F 0 "J11" H 3530 3742 50  0000 L CNN
+F 0 "J9" H 3530 3742 50  0000 L CNN
 F 1 "Conn_01x02" H 3530 3651 50  0000 L CNN
 F 2 "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical" H 3450 3750 50  0001 C CNN
 F 3 "~" H 3450 3750 50  0001 C CNN
@@ -135,10 +136,10 @@ F 3 "~" H 3450 3750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J12
+L Connector_Generic:Conn_01x02 J8
 U 1 1 5CA1F98B
 P 3450 3500
-F 0 "J12" H 3530 3492 50  0000 L CNN
+F 0 "J8" H 3530 3492 50  0000 L CNN
 F 1 "Conn_01x02" H 3530 3401 50  0000 L CNN
 F 2 "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical" H 3450 3500 50  0001 C CNN
 F 3 "~" H 3450 3500 50  0001 C CNN
@@ -146,10 +147,10 @@ F 3 "~" H 3450 3500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J13
+L Connector_Generic:Conn_01x02 J7
 U 1 1 5CA1FBF3
 P 3450 3250
-F 0 "J13" H 3530 3242 50  0000 L CNN
+F 0 "J7" H 3530 3242 50  0000 L CNN
 F 1 "Conn_01x02" H 3530 3151 50  0000 L CNN
 F 2 "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical" H 3450 3250 50  0001 C CNN
 F 3 "~" H 3450 3250 50  0001 C CNN
@@ -157,10 +158,10 @@ F 3 "~" H 3450 3250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J14
+L Connector_Generic:Conn_01x02 J6
 U 1 1 5CA1FEDD
 P 3450 3000
-F 0 "J14" H 3530 2992 50  0000 L CNN
+F 0 "J6" H 3530 2992 50  0000 L CNN
 F 1 "Conn_01x02" H 3530 2901 50  0000 L CNN
 F 2 "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical" H 3450 3000 50  0001 C CNN
 F 3 "~" H 3450 3000 50  0001 C CNN
@@ -293,7 +294,7 @@ L ESP32-DEVKITC-32D:ESP32-DEVKITC-32D U1
 U 1 1 5CA09322
 P 5500 3700
 F 0 "U1" H 5500 4867 50  0000 C CNN
-F 1 "ESP32-DEVKITC-32D" H 5500 4776 50  0000 C CNN
+F 1 "NODEMCU-32S" H 5500 4776 50  0000 C CNN
 F 2 "MODULE_ESP32-DEVKITC-32D" H 5500 3700 50  0001 L BNN
 F 3 "" H 5500 3700 50  0001 L BNN
 F 4 "Eval Board For Esp-Wroom-32" H 5500 3700 50  0001 L BNN "Field4"
@@ -333,9 +334,9 @@ Wire Wire Line
 Wire Wire Line
 	6300 3600 7100 3600
 Wire Wire Line
-	6800 4000 6800 4950
+	6800 4000 6800 4550
 Wire Wire Line
-	7000 3700 7000 4950
+	7000 3700 7000 4650
 Text GLabel 6900 4950 1    50   Input ~ 0
 GND
 Wire Wire Line
@@ -376,4 +377,31 @@ Wire Wire Line
 	4350 4200 4350 4500
 Wire Wire Line
 	4350 4500 3650 4500
+$Comp
+L Connector_Generic:Conn_01x03 J15
+U 1 1 5CA1AEFD
+P 7800 5150
+F 0 "J15" V 7672 5330 50  0000 L CNN
+F 1 "Chain Out" V 7763 5330 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_B3B-XH-AM_1x03_P2.50mm_Vertical" H 7800 5150 50  0001 C CNN
+F 3 "~" H 7800 5150 50  0001 C CNN
+	1    7800 5150
+	0    1    1    0   
+$EndComp
+Text GLabel 7800 4950 1    50   Input ~ 0
+GND
+Wire Wire Line
+	6800 4550 7700 4550
+Wire Wire Line
+	7700 4550 7700 4950
+Connection ~ 6800 4550
+Wire Wire Line
+	6800 4550 6800 4950
+Wire Wire Line
+	7000 4650 7900 4650
+Wire Wire Line
+	7900 4650 7900 4950
+Connection ~ 7000 4650
+Wire Wire Line
+	7000 4650 7000 4950
 $EndSCHEMATC
