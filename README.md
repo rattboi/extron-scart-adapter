@@ -4,21 +4,33 @@ Extron Scart Adapter projects
 Extron Input Adapter
 --------------------
 
+[Extron-Input README](extron-input/README.md)
+
 This board should plug into an extron crosspoint input, and has the following features:
 
 1) Female Scart input
-1) JST header to Phoenix adapter (cheap) (WIP)
-1) Sense header to determine if connected cable is "active" (WIP)
+1) JST header to Phoenix adapter (cheap)
+1) Sense header to determine if connected cable is "active"
 1) Selectable LM1881 Sync Stripper for sync on composite video / sync on luma
 
 Extron Output Adapter
 --------------------
 
+[Extron-Output README](extron-output/README.md)
+
 This board should plug into an extron crosspoint output, and has the following features:
 
 1) Female Scart output
-1) JST header to Phoenix adapter (cheap) (WIP)
+1) JST header to Phoenix adapter (cheap)
 1) Selectable termination resistor for 75 ohm or TTL level sync output
+
+Extron SCART Autoswitcher
+-------------------------
+
+[Autoswitcher README](esp32-switcher/README.md)
+
+This board plugs into the serial port on an Extron crosspoint, and works together with the input cards to determine which input has be most-recently powered on, and automatically switches to that input.
+
 
 Simple Scart Adapter (DEPRECATED)
 ---------------------------------
