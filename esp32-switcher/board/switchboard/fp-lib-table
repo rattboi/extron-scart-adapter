@@ -1,4 +1,3 @@
 (fp_lib_table
-  (lib (name ESP32-footprints-Lib)(type KiCad)(uri /home/rattboi/code/ESP32-kiCAD-Footprints/ESP32-Footprints/ESP32-footprints-Lib.pretty)(options "")(descr ""))
-  (lib (name ESP32-DEVKITC-32D)(type Legacy)(uri ${KIPRJMOD}/ESP32-DEVKITC-32D.mod)(options "")(descr ""))
+  (lib (name hiletgo-e32)(type KiCad)(uri ${KIPRJMOD}/hiletgo-e32.pretty)(options "")(descr ""))
 )
