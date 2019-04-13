@@ -2,15 +2,15 @@ EESchema Schematic File Version 4
 LIBS:power
 LIBS:74xx
 LIBS:extron-output-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "Extron Scart Adapter (Output)"
+Date "2019-04-13"
+Rev "2.1"
+Comp "Rattboi (Bradon Kanyid)"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -39,55 +39,55 @@ BLUE
 NoConn ~ 6850 2650
 Text GLabel 3750 2050 3    60   Input ~ 0
 GND
-Text GLabel 3950 4350 2    60   Input ~ 0
+Text GLabel 3550 4350 0    60   Input ~ 0
 SYNC
-Text GLabel 3950 3550 2    60   Input ~ 0
+Text GLabel 3550 3550 0    60   Input ~ 0
 BLUE
-Text GLabel 3950 1850 2    60   Input ~ 0
+Text GLabel 3550 1850 0    60   Input ~ 0
 RED
 $Comp
 L Connector:Conn_Coaxial J2
 U 1 1 5C651C5B
 P 3750 1850
-F 0 "J2" H 3700 1350 50  0000 L CNN
-F 1 "RED" H 3350 2000 50  0000 L CNN
-F 2 "extron-output:BNC_90" H 3750 1850 50  0001 C CNN
+F 0 "J2" V 3750 1950 50  0000 L CNN
+F 1 "RED" V 3650 1950 50  0000 L CNN
+F 2 "extron-output:rca_combined" H 3750 1850 50  0001 C CNN
 F 3 " ~" H 3750 1850 50  0001 C CNN
 	1    3750 1850
-	-1   0    0    -1  
+	0    1    -1   0   
 $EndComp
 $Comp
 L Connector:Conn_Coaxial J3
 U 1 1 5C651D00
 P 3750 2700
-F 0 "J3" H 3700 2200 50  0000 L CNN
-F 1 "GREEN" H 3350 2850 50  0000 L CNN
-F 2 "extron-output:BNC_90" H 3750 2700 50  0001 C CNN
+F 0 "J3" V 3750 2800 50  0000 L CNN
+F 1 "GREEN" V 3650 2800 50  0000 L CNN
+F 2 "extron-output:rca_combined" H 3750 2700 50  0001 C CNN
 F 3 " ~" H 3750 2700 50  0001 C CNN
 	1    3750 2700
-	-1   0    0    -1  
+	0    1    -1   0   
 $EndComp
 $Comp
 L Connector:Conn_Coaxial J4
 U 1 1 5C651DB2
 P 3750 3550
-F 0 "J4" H 3700 3050 50  0000 L CNN
-F 1 "BLUE" H 3350 3700 50  0000 L CNN
-F 2 "extron-output:BNC_90" H 3750 3550 50  0001 C CNN
+F 0 "J4" V 3750 3650 50  0000 L CNN
+F 1 "BLUE" V 3650 3650 50  0000 L CNN
+F 2 "extron-output:rca_combined" H 3750 3550 50  0001 C CNN
 F 3 " ~" H 3750 3550 50  0001 C CNN
 	1    3750 3550
-	-1   0    0    -1  
+	0    1    -1   0   
 $EndComp
 $Comp
 L Connector:Conn_Coaxial J5
 U 1 1 5C651E83
 P 3750 4350
-F 0 "J5" H 3700 3850 50  0000 L CNN
-F 1 "SYNC" H 3350 4500 50  0000 L CNN
-F 2 "extron-output:BNC_90" H 3750 4350 50  0001 C CNN
+F 0 "J5" V 3750 4450 50  0000 L CNN
+F 1 "SYNC" V 3650 4450 50  0000 L CNN
+F 2 "extron-output:rca_combined" H 3750 4350 50  0001 C CNN
 F 3 " ~" H 3750 4350 50  0001 C CNN
 	1    3750 4350
-	-1   0    0    -1  
+	0    1    -1   0   
 $EndComp
 Text GLabel 3750 2900 3    60   Input ~ 0
 GND
@@ -101,7 +101,7 @@ U 1 1 5C652866
 P 5850 4550
 F 0 "J6" H 5956 4828 50  0000 C CNN
 F 1 "PHOENIX" H 5956 4737 50  0000 C CNN
-F 2 "Connector_JST:JST_EH_S03B-EH_1x03_P2.50mm_Horizontal" H 5850 4550 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_S3B-XH-A-1_1x03_P2.50mm_Horizontal" H 5850 4550 50  0001 C CNN
 F 3 "~" H 5850 4550 50  0001 C CNN
 	1    5850 4550
 	-1   0    0    1   
@@ -156,7 +156,7 @@ F 3 "~" H 2600 6200 50  0001 C CNN
 	1    2600 6200
 	1    0    0    -1  
 $EndComp
-Text GLabel 3950 2700 2    60   Input ~ 0
+Text GLabel 3550 2700 0    60   Input ~ 0
 GREEN
 NoConn ~ 6850 4050
 NoConn ~ 6850 3650
@@ -232,4 +232,6 @@ Wire Wire Line
 	4750 2750 4850 2750
 Text GLabel 4750 2900 3    50   Input ~ 0
 SYNC
+Text GLabel 7000 3850 2    61   Input ~ 0
+GND
 $EndSCHEMATC
