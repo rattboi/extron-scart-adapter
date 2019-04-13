@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Extron ESP32 Switchboard"
-Date "2019-04-05"
-Rev "1.1"
+Date "2019-04-13"
+Rev "1.2"
 Comp "Rattboi (Bradon Kanyid)"
 Comment1 "https://github.com/rattboi/extron-scart-adapter"
 Comment2 ""
