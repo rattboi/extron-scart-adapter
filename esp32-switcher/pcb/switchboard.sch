@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Extron ESP32 Switchboard"
-Date "2019-04-13"
-Rev "1.2"
+Date "2019-04-15"
+Rev "1.3"
 Comp "Rattboi (Bradon Kanyid)"
 Comment1 "https://github.com/rattboi/extron-scart-adapter"
 Comment2 ""
@@ -39,12 +39,12 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x04 J13
 U 1 1 5CA19C8A
-P 6600 2250
-F 0 "J13" V 6564 1962 50  0000 R CNN
-F 1 "Conn_01x04" V 6473 1962 50  0000 R CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 6600 2250 50  0001 C CNN
-F 3 "~" H 6600 2250 50  0001 C CNN
-	1    6600 2250
+P 6600 2100
+F 0 "J13" V 6564 1812 50  0000 R CNN
+F 1 "Conn_01x04" V 6473 1812 50  0000 R CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 6600 2100 50  0001 C CNN
+F 3 "~" H 6600 2100 50  0001 C CNN
+	1    6600 2100
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -171,20 +171,20 @@ $EndComp
 Wire Wire Line
 	6300 3900 6600 3900
 Wire Wire Line
-	6700 3800 6700 2450
+	6700 3800 6700 2700
 Wire Wire Line
 	6300 3800 6700 3800
 Wire Wire Line
-	6600 3900 6600 2450
+	6600 3900 6600 2600
 $Comp
 L power:GND #PWR0101
 U 1 1 5CA2F4D0
-P 6500 2450
-F 0 "#PWR0101" H 6500 2200 50  0001 C CNN
-F 1 "GND" H 6505 2277 50  0000 C CNN
-F 2 "" H 6500 2450 50  0001 C CNN
-F 3 "" H 6500 2450 50  0001 C CNN
-	1    6500 2450
+P 6500 2300
+F 0 "#PWR0101" H 6500 2050 50  0001 C CNN
+F 1 "GND" H 6505 2127 50  0000 C CNN
+F 2 "" H 6500 2300 50  0001 C CNN
+F 3 "" H 6500 2300 50  0001 C CNN
+	1    6500 2300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -200,7 +200,7 @@ F 3 "" H 4700 2800 50  0001 C CNN
 $EndComp
 Text GLabel 4700 2800 0    50   Input ~ 0
 PWR
-Text GLabel 6800 2450 3    50   Input ~ 0
+Text GLabel 6800 2300 3    50   Input ~ 0
 PWR
 $Comp
 L power:GND #PWR0103
@@ -404,4 +404,86 @@ Wire Wire Line
 	4700 4200 4450 4200
 Wire Wire Line
 	4450 4200 4450 4500
+$Comp
+L Connector_Generic:Conn_01x04 J16
+U 1 1 5CB4BB5D
+P 7750 2100
+F 0 "J16" V 7714 1812 50  0000 R CNN
+F 1 "Conn_01x04" V 7623 1812 50  0000 R CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 7750 2100 50  0001 C CNN
+F 3 "~" H 7750 2100 50  0001 C CNN
+	1    7750 2100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6700 2700 7850 2700
+Wire Wire Line
+	7850 2700 7850 2300
+Wire Wire Line
+	6600 2600 7750 2600
+Wire Wire Line
+	7750 2600 7750 2300
+Connection ~ 6600 2600
+Wire Wire Line
+	6600 2600 6600 2300
+$Comp
+L power:GND #PWR0106
+U 1 1 5CB4EA20
+P 7650 2300
+F 0 "#PWR0106" H 7650 2050 50  0001 C CNN
+F 1 "GND" H 7655 2127 50  0000 C CNN
+F 2 "" H 7650 2300 50  0001 C CNN
+F 3 "" H 7650 2300 50  0001 C CNN
+	1    7650 2300
+	1    0    0    -1  
+$EndComp
+Text GLabel 7950 2300 3    50   Input ~ 0
+PWR
+Connection ~ 6700 2700
+Wire Wire Line
+	6700 2300 6700 2700
+$Comp
+L Connector_Generic:Conn_01x01 J17
+U 1 1 5CB5F77A
+P 2200 5550
+F 0 "J17" H 2280 5592 50  0000 L CNN
+F 1 "Conn_01x01" H 2280 5501 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 2200 5550 50  0001 C CNN
+F 3 "~" H 2200 5550 50  0001 C CNN
+	1    2200 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J18
+U 1 1 5CB5FF64
+P 2200 5750
+F 0 "J18" H 2280 5792 50  0000 L CNN
+F 1 "Conn_01x01" H 2280 5701 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 2200 5750 50  0001 C CNN
+F 3 "~" H 2200 5750 50  0001 C CNN
+	1    2200 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J19
+U 1 1 5CB601A9
+P 2200 5950
+F 0 "J19" H 2280 5992 50  0000 L CNN
+F 1 "Conn_01x01" H 2280 5901 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 2200 5950 50  0001 C CNN
+F 3 "~" H 2200 5950 50  0001 C CNN
+	1    2200 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J20
+U 1 1 5CB603FE
+P 2200 6150
+F 0 "J20" H 2280 6192 50  0000 L CNN
+F 1 "Conn_01x01" H 2280 6101 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 2200 6150 50  0001 C CNN
+F 3 "~" H 2200 6150 50  0001 C CNN
+	1    2200 6150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -57,7 +57,7 @@ GND
 Text GLabel 8050 4550 0    60   Input ~ 0
 GND
 $Comp
-L extron-input-rescue:SCART-F-Connector-extron-input-rescue J1
+L extron-input-rescue:SCART-F-Connector-extron-input-rescue-extron-input-rescue J1
 U 1 1 5C652397
 P 3850 3100
 F 0 "J1" H 3850 4520 50  0000 C CNN
@@ -69,7 +69,7 @@ F 4 "https://console5.com/store/female-scart-jp21-through-hole-pcb-mount-21-pin-
 	1    0    0    -1  
 $EndComp
 $Comp
-L extron-input-rescue:Conn_01x03_Male-Connector-extron-input-rescue J6
+L extron-input-rescue:Conn_01x03_Male-Connector-extron-input-rescue-extron-input-rescue J6
 U 1 1 5C652866
 P 4650 4750
 F 0 "J6" H 4756 5028 50  0000 C CNN
@@ -81,7 +81,7 @@ F 4 "https://lcsc.com/product-detail/XH-Connectors_JST_S3B-XH-A-LF-SN_XHsocket-1
 	1    0    0    -1  
 $EndComp
 $Comp
-L extron-input-rescue:Conn_01x02_Male-Connector-extron-input-rescue J7
+L extron-input-rescue:Conn_01x02_Male-Connector-extron-input-rescue-extron-input-rescue J7
 U 1 1 5C74DAFA
 P 5750 5800
 F 0 "J7" H 5900 5600 50  0000 R CNN
@@ -93,7 +93,7 @@ F 4 "https://lcsc.com/product-detail/XH-Connectors_JST_S2B-XH-A-LF-SN_XHsocket-1
 	-1   0    0    1   
 $EndComp
 $Comp
-L extron-input-rescue:LM1881-Video-extron-input-rescue U1
+L extron-input-rescue:LM1881-Video-extron-input-rescue-extron-input-rescue U1
 U 1 1 5C74DDC8
 P 6750 2400
 F 0 "U1" H 6500 2850 50  0000 C CNN
@@ -105,7 +105,7 @@ F 4 "https://www.ti.com/store/ti/en/p/product/?p=LM1881N/NOPB&HQS=corp-tistore-n
 	1    0    0    -1  
 $EndComp
 $Comp
-L extron-input-rescue:R_US-Device-extron-input-rescue R1
+L extron-input-rescue:R_US-Device-extron-input-rescue-extron-input-rescue R1
 U 1 1 5C74E55F
 P 5800 2850
 F 0 "R1" V 5700 2850 50  0000 C CNN
@@ -117,7 +117,7 @@ F 4 "https://lcsc.com/product-detail/Others_FlyWin-CR1-8W-5-680K-OTB5_C337028.ht
 	0    -1   -1   0   
 $EndComp
 $Comp
-L extron-input-rescue:C_Small-Device-extron-input-rescue C2
+L extron-input-rescue:C_Small-Device-extron-input-rescue-extron-input-rescue C2
 U 1 1 5C74EC46
 P 5800 2500
 F 0 "C2" V 5950 2500 50  0000 C CNN
@@ -144,7 +144,7 @@ Connection ~ 6000 2500
 Wire Wire Line
 	6000 2500 6200 2500
 $Comp
-L extron-input-rescue:GND-power-extron-input-rescue #PWR0101
+L extron-input-rescue:GND-power-extron-input-rescue-extron-input-rescue #PWR0101
 U 1 1 5C74F12A
 P 5450 2550
 F 0 "#PWR0101" H 5450 2300 50  0001 C CNN
@@ -164,7 +164,7 @@ Wire Wire Line
 Wire Wire Line
 	6200 2400 6250 2400
 $Comp
-L extron-input-rescue:C_Small-Device-extron-input-rescue C1
+L extron-input-rescue:C_Small-Device-extron-input-rescue-extron-input-rescue C1
 U 1 1 5C74F422
 P 5800 2300
 F 0 "C1" V 6029 2300 50  0000 C CNN
@@ -178,7 +178,7 @@ $EndComp
 Wire Wire Line
 	5900 2300 6250 2300
 $Comp
-L extron-input-rescue:GND-power-extron-input-rescue #PWR0102
+L extron-input-rescue:GND-power-extron-input-rescue-extron-input-rescue #PWR0102
 U 1 1 5C74FB45
 P 6750 2700
 F 0 "#PWR0102" H 6750 2450 50  0001 C CNN
@@ -189,7 +189,7 @@ F 3 "" H 6750 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L extron-input-rescue:SW_DPDT_x2-Switch-extron-input-rescue SW1
+L extron-input-rescue:SW_DPDT_x2-Switch-extron-input-rescue-extron-input-rescue SW1
 U 2 1 5C75001B
 P 5100 3400
 F 0 "SW1" H 5100 3685 50  0000 C CNN
@@ -201,7 +201,7 @@ F 4 "https://lcsc.com/product-detail/Toggle-Switches_C-K_JS202011AQN_C-K-JS20201
 	1    0    0    -1  
 $EndComp
 $Comp
-L extron-input-rescue:SW_DPDT_x2-Switch-extron-input-rescue SW1
+L extron-input-rescue:SW_DPDT_x2-Switch-extron-input-rescue-extron-input-rescue SW1
 U 1 1 5C7500A7
 P 5050 2200
 F 0 "SW1" H 5050 2485 50  0000 C CNN
@@ -248,7 +248,7 @@ NoConn ~ 2400 5800
 NoConn ~ 2400 6000
 NoConn ~ 2400 6200
 $Comp
-L extron-input-rescue:Conn_01x01-Connector_Generic-extron-input-rescue J8
+L extron-input-rescue:Conn_01x01-Connector_Generic-extron-input-rescue-extron-input-rescue J8
 U 1 1 5C7605B3
 P 2600 5600
 F 0 "J8" H 2680 5642 50  0000 L CNN
@@ -259,7 +259,7 @@ F 3 "~" H 2600 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L extron-input-rescue:Conn_01x01-Connector_Generic-extron-input-rescue J9
+L extron-input-rescue:Conn_01x01-Connector_Generic-extron-input-rescue-extron-input-rescue J9
 U 1 1 5C76074F
 P 2600 5800
 F 0 "J9" H 2680 5842 50  0000 L CNN
@@ -270,7 +270,7 @@ F 3 "~" H 2600 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L extron-input-rescue:Conn_01x01-Connector_Generic-extron-input-rescue J10
+L extron-input-rescue:Conn_01x01-Connector_Generic-extron-input-rescue-extron-input-rescue J10
 U 1 1 5C760785
 P 2600 6000
 F 0 "J10" H 2680 6042 50  0000 L CNN
@@ -281,7 +281,7 @@ F 3 "~" H 2600 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L extron-input-rescue:Conn_01x01-Connector_Generic-extron-input-rescue J11
+L extron-input-rescue:Conn_01x01-Connector_Generic-extron-input-rescue-extron-input-rescue J11
 U 1 1 5C7607B9
 P 2600 6200
 F 0 "J11" H 2680 6242 50  0000 L CNN
@@ -308,7 +308,7 @@ SENSE
 Wire Wire Line
 	5550 5700 5500 5700
 $Comp
-L extron-input-rescue:D_ALT-Device-extron-input-rescue D1
+L extron-input-rescue:D_ALT-Device-extron-input-rescue-extron-input-rescue D1
 U 1 1 5C84733C
 P 4350 5700
 F 0 "D1" H 4350 5484 50  0000 C CNN
@@ -320,7 +320,7 @@ F 4 "https://lcsc.com/product-detail/Switching-Diode_1N4148_C14516.html" H 4350 
 	-1   0    0    1   
 $EndComp
 $Comp
-L extron-input-rescue:R_US-Device-extron-input-rescue R2
+L extron-input-rescue:R_US-Device-extron-input-rescue-extron-input-rescue R2
 U 1 1 5C847B71
 P 4800 5700
 F 0 "R2" V 4595 5700 50  0000 C CNN
@@ -332,7 +332,7 @@ F 4 "https://lcsc.com/product-detail/Carbon-Film-Resistors_100KR-104-5_C120103.h
 	0    1    1    0   
 $EndComp
 $Comp
-L extron-input-rescue:D_Zener-Device-extron-input-rescue D2
+L extron-input-rescue:D_Zener-Device-extron-input-rescue-extron-input-rescue D2
 U 1 1 5C847C9D
 P 5050 5850
 F 0 "D2" V 5004 5929 50  0000 L CNN
@@ -349,7 +349,7 @@ Connection ~ 5050 5700
 Text GLabel 4150 5700 0    50   Input ~ 0
 SENSE
 $Comp
-L extron-input-rescue:GND-power-extron-input-rescue #PWR0103
+L extron-input-rescue:GND-power-extron-input-rescue-extron-input-rescue #PWR0103
 U 1 1 5C849937
 P 5050 6050
 F 0 "#PWR0103" H 5050 5800 50  0001 C CNN
@@ -367,7 +367,7 @@ Connection ~ 5050 6000
 Wire Wire Line
 	5050 6000 5050 6050
 $Comp
-L extron-input-rescue:R_US-Device-extron-input-rescue R3
+L extron-input-rescue:R_US-Device-extron-input-rescue-extron-input-rescue R3
 U 1 1 5C84AF3E
 P 5350 5700
 F 0 "R3" V 5145 5700 50  0000 C CNN
@@ -385,7 +385,7 @@ Wire Wire Line
 Wire Wire Line
 	4500 5700 4650 5700
 $Comp
-L extron-input-rescue:Conn_Coaxial-Connector-extron-input-rescue J2
+L extron-input-rescue:Conn_Coaxial-Connector-extron-input-rescue-extron-input-rescue J2
 U 1 1 5C8498CA
 P 8250 2050
 F 0 "J2" H 8350 2026 50  0000 L CNN
@@ -397,7 +397,7 @@ F 4 "https://lcsc.com/product-detail/AV-Connectors_AV-5_C18080.html" H 8250 2050
 	1    0    0    -1  
 $EndComp
 $Comp
-L extron-input-rescue:Conn_Coaxial-Connector-extron-input-rescue J3
+L extron-input-rescue:Conn_Coaxial-Connector-extron-input-rescue-extron-input-rescue J3
 U 1 1 5C849928
 P 8250 2900
 F 0 "J3" H 8350 2876 50  0000 L CNN
@@ -409,7 +409,7 @@ F 4 "https://lcsc.com/product-detail/AV-Connectors_AV-5_C18080.html" H 8250 2900
 	1    0    0    -1  
 $EndComp
 $Comp
-L extron-input-rescue:Conn_Coaxial-Connector-extron-input-rescue J4
+L extron-input-rescue:Conn_Coaxial-Connector-extron-input-rescue-extron-input-rescue J4
 U 1 1 5C84997A
 P 8250 3750
 F 0 "J4" H 8349 3726 50  0000 L CNN
@@ -421,7 +421,7 @@ F 4 "https://lcsc.com/product-detail/AV-Connectors_AV-5_C18080.html" H 8250 3750
 	1    0    0    -1  
 $EndComp
 $Comp
-L extron-input-rescue:Conn_Coaxial-Connector-extron-input-rescue J5
+L extron-input-rescue:Conn_Coaxial-Connector-extron-input-rescue-extron-input-rescue J5
 U 1 1 5C8499F8
 P 8250 4550
 F 0 "J5" H 8350 4526 50  0000 L CNN
