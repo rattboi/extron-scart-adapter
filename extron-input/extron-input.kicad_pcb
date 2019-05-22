@@ -1330,7 +1330,7 @@
     (at 88.9 108.3056)
     (descr "CuK sub miniature slide switch, JS series, DPDT, right angle, http://www.ckswitches.com/media/1422/js.pdf")
     (tags "switch DPDT")
-    (path /5C75001B)
+    (path /5C7500A7)
     (fp_text reference SW1 (at 2.54 1.7272) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
