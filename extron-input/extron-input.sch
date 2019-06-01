@@ -74,7 +74,7 @@ U 1 1 5C652866
 P 4650 4750
 F 0 "J6" H 4756 5028 50  0000 C CNN
 F 1 "PHOENIX" H 4756 4937 50  0000 C CNN
-F 2 "Connector_JST:JST_XH_S03B-XH-A_1x03_P2.50mm_Horizontal" H 4650 4750 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_S3B-XH-A-1_1x03_P2.50mm_Horizontal" H 4650 4750 50  0001 C CNN
 F 3 "~" H 4650 4750 50  0001 C CNN
 F 4 "https://lcsc.com/product-detail/XH-Connectors_JST_S3B-XH-A-LF-SN_XHsocket-1-3P-Curved-needle-pitch2-5mm_C157928.html" H 4650 4750 50  0001 C CNN "Vendor"
 	1    4650 4750
@@ -86,7 +86,7 @@ U 1 1 5C74DAFA
 P 5750 5800
 F 0 "J7" H 5900 5600 50  0000 R CNN
 F 1 "SENSE" H 5700 5800 50  0000 R CNN
-F 2 "Connector_JST:JST_XH_S02B-XH-A_1x02_P2.50mm_Horizontal" H 5750 5800 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal" H 5750 5800 50  0001 C CNN
 F 3 "~" H 5750 5800 50  0001 C CNN
 F 4 "https://lcsc.com/product-detail/XH-Connectors_JST_S2B-XH-A-LF-SN_XHsocket-1-2P-Curved-needle-pitch2-5mm_C157931.html" H 5750 5800 50  0001 C CNN "Vendor"
 	1    5750 5800
@@ -234,7 +234,6 @@ GND
 NoConn ~ 2400 5600
 NoConn ~ 2400 5800
 NoConn ~ 2400 6000
-NoConn ~ 2400 6200
 $Comp
 L Connector_Generic:Conn_01x01 J8
 U 1 1 5C7605B3
@@ -266,17 +265,6 @@ F 1 "Conn_01x01" H 2680 5951 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 2600 6000 50  0001 C CNN
 F 3 "~" H 2600 6000 50  0001 C CNN
 	1    2600 6000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J11
-U 1 1 5C7607B9
-P 2600 6200
-F 0 "J11" H 2680 6242 50  0000 L CNN
-F 1 "Conn_01x01" H 2680 6151 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 2600 6200 50  0001 C CNN
-F 3 "~" H 2600 6200 50  0001 C CNN
-	1    2600 6200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
