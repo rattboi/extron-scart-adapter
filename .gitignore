@@ -12,6 +12,7 @@ _autosave-*
 *-rescue.lib
 *-save.pro
 *-save.kicad_pcb
+fp-info-cache
 
 # Netlist files (exported from Eeschema)
 *.net
@@ -23,3 +24,6 @@ _autosave-*
 # Exported BOM files
 *.xml
 *.csv
+
+# Generated Gerbers
+Gerbers/
