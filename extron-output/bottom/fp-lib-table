@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name extron-output)(type KiCad)(uri /home/rattboi/code/extron-scart-adapter/extron-output/extron-output.pretty)(options "")(descr ""))
+)
