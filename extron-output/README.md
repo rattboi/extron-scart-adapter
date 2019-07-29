@@ -4,11 +4,27 @@ Extron SCART Output Adapter
 PCB Renders
 ===========
 
+## Top
+
 ![Front Render](renders/front.png)
 ![Back Render](renders/back.png)
 
+## Bottom
+
+![Front Render](renders/b-front.png)
+![Back Render](renders/b-back.png)
+
 3D Renders
 ==========
+
+## Top
+
+![Top Render](renders/3d-top.png)
+![Front Render](renders/3d-front.png)
+![Side Render](renders/3d-side.png)
+
+## Bottom
+
 ![Top Render](renders/3d-top.png)
 ![Front Render](renders/3d-front.png)
 ![Side Render](renders/3d-side.png)
