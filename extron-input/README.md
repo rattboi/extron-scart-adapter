@@ -1,17 +1,44 @@
 Extron SCART Input adapter
 ==========================
 
+The Extron SCART Input adapters are designed to be inserted into an Extron Crosspoint input vertically. There are two supported BNC spacings, one that is looser (older Extrons) and one that is tighter (newer Extrons). When you assemble your card, you use the correct RCA spacing to support your Extron. The looser spacing is labeled RED/GREEN/BLUE/SYNC, while the tighter spacing is labeled RED2/GREEN/BLUE2/SYNC2. You'll notice that GREEN is shared between the two spacings.
+
+Below, you will notice that there is a design for a 'top' card and a 'bottom' card. This was required in order to get the cards close enough together horizontally (from the perspective of the Extron). The SCART heads are large and for the newer Extron spacing, the BNC spacing is just too tight to have the SCART heads stack. Therefore, you should plan to make both 'top' and 'bottom' cards, and alternate them. I use plastic standoffs to group 3-4 boards together. For the newer Extrons, I found that alternating 15mm and 16mm standoffs gave a perfect fit. Anothe alternative would be to just pair up boards, and use either 15 or 16. The error builds when you try to create a larger matrix, so you shouldn't have any problem if you make smaller matrices.
+
+Features
+========
+
+The Extron input cards have optional sync strippers that are togglable via a switch that is labeled on the PCB. The lm1881 sync stripper is powered by the SCART cable's pin 8 (switch pin). The SCART standardsays that this should be carrying 5v-12v. Anywhere in that range works fine for the lm1881.
+
+Also, there is a small custom circuit to determine if the console is powered on, via the switch pin on the SCART connector. This can be paired with the autoswitcher to automatically switch the extron input to match the last powered-on device. This circuit takes 5-12V and lowers it down to 2.5-3.3V, which is low enough to be a simple digital 'on' signal to the autoswitcher board.
+
 PCB Renders
 ===========
 
-![Front Render](renders/front.png)
-![Back Render](renders/back.png)
+## Top
+
+![Front Render](renders/t-front.png)
+![Back Render](renders/t-back.png)
+
+## Bottom
+
+![Front Render](renders/b-front.png)
+![Back Render](renders/b-back.png)
 
 3D Renders
 ==========
-![Top Render](renders/3d-top.png)
-![Front Render](renders/3d-front.png)
-![Side Render](renders/3d-side.png)
+
+## Top
+
+![Top Render](renders/t-3d-top.png)
+![Front Render](renders/t-3d-front.png)
+![Side Render](renders/t-3d-side.png)
+
+## Bottom
+
+![Top Render](renders/b-3d-top.png)
+![Front Render](renders/b-3d-front.png)
+![Side Render](renders/b-3d-side.png)
 
 BOM
 ===========
