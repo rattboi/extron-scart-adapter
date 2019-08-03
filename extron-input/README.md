@@ -15,30 +15,50 @@ Also, there is a small custom circuit to determine if the console is powered on,
 PCB Renders
 ===========
 
-## Top
+## Front
 
-![Front Render](renders/t-front.png)
-![Back Render](renders/t-back.png)
+![Front Render](images/renders/t-front.png)
+![Front Render](images/renders/b-front.png)
 
-## Bottom
+## Back
 
-![Front Render](renders/b-front.png)
-![Back Render](renders/b-back.png)
+![Back Render](images/renders/t-back.png)
+![Back Render](images/renders/b-back.png)
 
 3D Renders
 ==========
 
 ## Top
 
-![Top Render](renders/t-3d-top.png)
-![Front Render](renders/t-3d-front.png)
-![Side Render](renders/t-3d-side.png)
+![Top Render](images/renders/t-3d-top.png)
+![Top Render](images/renders/b-3d-top.png)
 
-## Bottom
+## Front
 
-![Top Render](renders/b-3d-top.png)
-![Front Render](renders/b-3d-front.png)
-![Side Render](renders/b-3d-side.png)
+![Front Render](images/renders/t-3d-front.png)
+![Front Render](images/renders/b-3d-front.png)
+
+## Side
+
+![Side Render](images/renders/t-3d-side.png)
+![Side Render](images/renders/b-3d-side.png)
+
+
+Assembled Cards
+===============
+
+![Front](images/assembled/extron-cards-front.jpg)
+![Back](images/assembled/extron-cards-back.jpg)
+![Side 1](images/assembled/extron-cards-side-1.jpg)
+![Side 2](images/assembled/extron-cards-side-2.jpg)
+
+Others
+======
+
+![Back of Extron, prepared for cards](images/assembled/extron-adapters.jpg)
+![Cards inserted, no SCART cables](images/assembled/extron-cards-inserted.jpg)
+![Cards inserted, no SCART cables (side)](images/assembled/extron-cards-inserted-side.jpg)
+![Cards inserted, with SCART cables](images/assembled/extron-populated.jpg)
 
 BOM
 ===========
