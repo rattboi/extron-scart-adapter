@@ -4,31 +4,33 @@ Extron SCART Output Adapter
 PCB Renders
 ===========
 
-## Top
+## Front
 
-![Front Render](renders/front.png)
-![Back Render](renders/back.png)
+![Front Render](images/renders/t-front.png)
+![Front Render](images/renders/b-front.png)
 
-## Bottom
+## Back
 
-![Front Render](renders/b-front.png)
-![Back Render](renders/b-back.png)
+![Back Render](images/renders/t-back.png)
+![Back Render](images/renders/b-back.png)
 
 3D Renders
 ==========
 
 ## Top
 
-![Top Render](renders/3d-top.png)
-![Front Render](renders/3d-front.png)
-![Side Render](renders/3d-side.png)
+![Top Render](images/renders/t-3d-top.png)
+![Top Render](images/renders/b-3d-top.png)
 
-## Bottom
+## Front
 
-![Top Render](renders/3d-top.png)
-![Front Render](renders/3d-front.png)
-![Side Render](renders/3d-side.png)
+![Front Render](images/renders/t-3d-front.png)
+![Front Render](images/renders/b-3d-front.png)
 
+## Side
+
+![Side Render](images/renders/t-3d-side.png)
+![Side Render](images/renders/b-3d-side.png)
 
 BOM 
 ===
