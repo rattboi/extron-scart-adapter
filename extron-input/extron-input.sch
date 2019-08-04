@@ -74,7 +74,7 @@ U 1 1 5C652866
 P 4650 4750
 F 0 "J6" H 4756 5028 50  0000 C CNN
 F 1 "PHOENIX" H 4756 4937 50  0000 C CNN
-F 2 "Connector_JST:JST_XH_S03B-XH-A_1x03_P2.50mm_Horizontal" H 4650 4750 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_S3B-XH-A-1_1x03_P2.50mm_Horizontal" H 4650 4750 50  0001 C CNN
 F 3 "~" H 4650 4750 50  0001 C CNN
 F 4 "https://lcsc.com/product-detail/XH-Connectors_JST_S3B-XH-A-LF-SN_XHsocket-1-3P-Curved-needle-pitch2-5mm_C157928.html" H 4650 4750 50  0001 C CNN "Vendor"
 	1    4650 4750
@@ -86,7 +86,7 @@ U 1 1 5C74DAFA
 P 5750 5800
 F 0 "J7" H 5900 5600 50  0000 R CNN
 F 1 "SENSE" H 5700 5800 50  0000 R CNN
-F 2 "Connector_JST:JST_XH_S02B-XH-A_1x02_P2.50mm_Horizontal" H 5750 5800 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal" H 5750 5800 50  0001 C CNN
 F 3 "~" H 5750 5800 50  0001 C CNN
 F 4 "https://lcsc.com/product-detail/XH-Connectors_JST_S2B-XH-A-LF-SN_XHsocket-1-2P-Curved-needle-pitch2-5mm_C157931.html" H 5750 5800 50  0001 C CNN "Vendor"
 	1    5750 5800
@@ -234,7 +234,6 @@ GND
 NoConn ~ 2400 5600
 NoConn ~ 2400 5800
 NoConn ~ 2400 6000
-NoConn ~ 2400 6200
 $Comp
 L Connector_Generic:Conn_01x01 J8
 U 1 1 5C7605B3
@@ -266,17 +265,6 @@ F 1 "Conn_01x01" H 2680 5951 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 2600 6000 50  0001 C CNN
 F 3 "~" H 2600 6000 50  0001 C CNN
 	1    2600 6000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J11
-U 1 1 5C7607B9
-P 2600 6200
-F 0 "J11" H 2680 6242 50  0000 L CNN
-F 1 "Conn_01x01" H 2680 6151 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 2600 6200 50  0001 C CNN
-F 3 "~" H 2600 6200 50  0001 C CNN
-	1    2600 6200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -385,18 +373,6 @@ F 4 "https://lcsc.com/product-detail/AV-Connectors_AV-5_C18080.html" H 8250 2050
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_Coaxial J3
-U 1 1 5C849928
-P 8250 2900
-F 0 "J3" H 8350 2876 50  0000 L CNN
-F 1 "GREEN" H 8350 2785 50  0000 L CNN
-F 2 "extron-input:rca_combined" H 8250 2900 50  0001 C CNN
-F 3 " ~" H 8250 2900 50  0001 C CNN
-F 4 "https://lcsc.com/product-detail/AV-Connectors_AV-5_C18080.html" H 8250 2900 50  0001 C CNN "Vendor"
-	1    8250 2900
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector:Conn_Coaxial J4
 U 1 1 5C84997A
 P 8250 3750
@@ -440,4 +416,76 @@ F 4 "https://lcsc.com/product-detail/Toggle-Switches_C-K_JS202011AQN_C-K-JS20201
 	2    5100 3400
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector:Conn_Coaxial J11
+U 1 1 5CF20E44
+P 8700 2050
+F 0 "J11" H 8800 2026 50  0000 L CNN
+F 1 "RED" H 8800 1935 50  0000 L CNN
+F 2 "extron-input:rca_combined" H 8700 2050 50  0001 C CNN
+F 3 " ~" H 8700 2050 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/AV-Connectors_AV-5_C18080.html" H 8700 2050 50  0001 C CNN "Vendor"
+	1    8700 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J3
+U 1 1 5C849928
+P 8250 2900
+F 0 "J3" H 8350 2876 50  0000 L CNN
+F 1 "GREEN" H 8350 2785 50  0000 L CNN
+F 2 "extron-input:rca_combined" H 8250 2900 50  0001 C CNN
+F 3 " ~" H 8250 2900 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/AV-Connectors_AV-5_C18080.html" H 8250 2900 50  0001 C CNN "Vendor"
+	1    8250 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J12
+U 1 1 5CF22661
+P 8700 3750
+F 0 "J12" H 8799 3726 50  0000 L CNN
+F 1 "BLUE" H 8799 3635 50  0000 L CNN
+F 2 "extron-input:rca_combined" H 8700 3750 50  0001 C CNN
+F 3 " ~" H 8700 3750 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/AV-Connectors_AV-5_C18080.html" H 8700 3750 50  0001 C CNN "Vendor"
+	1    8700 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J13
+U 1 1 5CF22C42
+P 8700 4550
+F 0 "J13" H 8800 4526 50  0000 L CNN
+F 1 "SYNC" H 8800 4435 50  0000 L CNN
+F 2 "extron-input:rca_combined" H 8700 4550 50  0001 C CNN
+F 3 " ~" H 8700 4550 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/AV-Connectors_AV-5_C18080.html" H 8700 4550 50  0001 C CNN "Vendor"
+	1    8700 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 4750 8700 4750
+Wire Wire Line
+	8050 4550 8050 4450
+Wire Wire Line
+	8050 4450 8500 4450
+Wire Wire Line
+	8500 4450 8500 4550
+Wire Wire Line
+	8050 3750 8050 3650
+Wire Wire Line
+	8050 3650 8500 3650
+Wire Wire Line
+	8500 3650 8500 3750
+Wire Wire Line
+	8250 3950 8700 3950
+Wire Wire Line
+	8500 2050 8500 1950
+Wire Wire Line
+	8500 1950 8050 1950
+Wire Wire Line
+	8050 1950 8050 2050
+Wire Wire Line
+	8250 2250 8700 2250
 $EndSCHEMATC

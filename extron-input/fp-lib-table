@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name "extron-input")(type KiCad)(uri "${KIPRJMOD}/extron-input.pretty")(options "")(descr ""))
-)
