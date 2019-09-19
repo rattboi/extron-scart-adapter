@@ -22,10 +22,17 @@ PCB Renders
 
 BOM
 ===========
-| Item | Qty | Reference(s)     | Value      | Footprint                                                   | Datasheet                                                                                                            |
-|------|-----|------------------|------------|-------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
-| WIP  |     |                  |            |                                                             |                                                                                                                      |
+| Item  | Qty | Reference(s)     | Value      | Footprint                                                   | Datasheet                                                                                                            |
+|-------|-----|------------------|------------|-------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
+| 1     |   1 | U1               | ESP32      | hiletgo-e32:HILETGO-E32                                     |  https://www.amazon.com/gp/product/B0718T232Z/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1                        |
+| 2     |   1 | J13/J16          | RS232      | Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical  |  https://www.amazon.com/gp/product/B00OPU2QJ4/ref=ppx_yo_dt_b_asin_title_o02_s00?ie=UTF8&psc=1                       |
+| 3     |  14 | J1-12,14,15      | JST-XH RA  | Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical        |                                                                                                                      |
 
+Notes:
+* You only need one RS232 TTL Converter. There's two spots (J13 or J16) on the board to place it, depending on what orientation you want your switchboard to be.
+* You can skip J14/J15 for now. They are WIP to chain together switchboards for cascading multiple Extrons
+* If you don't want the ESP32 to be permanently soldered to the switchboard, you can use pin header for the two rows of pins where the ESP32 plugs in.
+* I would recommend directly soldering the RS232 in place for stability, but you could use pin header there as well.
 
 Code
 ====
