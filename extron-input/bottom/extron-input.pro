@@ -1,4 +1,4 @@
-update=6/7/2018 8:02:33 PM
+update=Fri 31 Jan 2020 08:27:41 AM PST
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,11 +23,8 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=
-[eeschema/libraries]
-LibName1=power
-LibName2=74xx
-[general]
-version=1
